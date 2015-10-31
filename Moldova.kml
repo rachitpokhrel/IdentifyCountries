@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>KML Countries Coordinates</name>
+        <open>1</open>
+        <description>Unleash your creativity with the help of these examples!</description>
+        
+        <Style id="yellowLineWhitePoly">
+            <LineStyle>
+                <color>7f00ffff</color>
+                <width>4</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>ffffffff</color>
+            </PolyStyle>
+        </Style>
+        
+        
+        <Folder>
+            <name>Polygons</name>
+            <visibility>0</visibility>
+            <description>Polygon shapes Countries</description>
+            <Folder>
+                <name>Polygon Countries</name>
+                <visibility>0</visibility>
+                <description>A collection showing how easy it is to create 3-dimensional
+                    buildings</description>
+                
+                
+                <Placemark>
+                    <name>Moldova</name>
+                    <visibility>0</visibility>
+                    <styleUrl>#yellowLineWhitePoly</styleUrl>
+                    <Polygon>
+                        <extrude>1</extrude>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>
+                                    28.22243990933685,45.62684311948606,0 28.5489985916498,45.58305787000544,0 28.59279503767885,45.85483723584002,0 28.92312326439466,45.95323164436886,0 29.05430881628114,46.33931602568068,0 28.77760506726556,46.56351844395864,0 29.34150395015592,46.6165520134,0 29.77962346459642,46.33058042737462,0 30.01430397750449,46.49907089815193,0 29.92459417237738,46.86055668495801,0 29.74169681569748,47.03564323666576,0 29.49014165071734,47.43413925465368,0 29.16724990012569,47.22153319084134,0 29.17871972460116,47.72479654804956,0 29.04641504761532,48.00829838116529,0 28.70613438643239,48.19933314873516,0 28.38254131949477,48.12724340003206,0 27.93088772650165,48.24404904930147,0 27.69216250990639,48.43363683773494,0 27.29135662164357,48.43989626740758,0 26.86943396310044,48.41539962277582,0 26.87753721727378,48.12383865275519,0 27.25871530873348,47.87172612904361,0 27.70843823317299,47.757465392866,0 27.59351799623841,47.49134009614988,0 27.81811799116055,47.03902058923896,0 28.34329595596179,47.03863924500465,0 28.1946828294482,46.55080236078611,0 28.07989572891166,46.14235992241034,0 28.22243990933685,45.62684311948606,0
+                                </coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                    
+                    
+                    
+                </Placemark>
+            </Folder>
+        </Folder>
+    </Document>
+</kml>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name>KML Countries Coordinates</name>
+        <open>1</open>
+        <description>Unleash your creativity with the help of these examples!</description>
+        
+        <Style id="yellowLineWhitePoly">
+            <LineStyle>
+                <color>7f00ffff</color>
+                <width>4</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>ffffffff</color>
+            </PolyStyle>
+        </Style>
+        
+        
+        <Folder>
+            <name>Polygons</name>
+            <visibility>0</visibility>
+            <description>Polygon shapes Countries</description>
+            <Folder>
+                <name>Polygon Countries</name>
+                <visibility>0</visibility>
+                <description>A collection showing how easy it is to create 3-dimensional
+                    buildings</description>
+                
+                
+                <Placemark>
+                    <name>Burundi</name>
+                    <visibility>0</visibility>
+                    <styleUrl>#yellowLineWhitePoly</styleUrl>
+                    <Polygon>
+                        <extrude>1</extrude>
+                        <altitudeMode>relativeToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing>
+                                <coordinates>
+                                    29.42239952123452,-4.392661316135749,0 29.68154666786787,-4.434940264696524,0 29.91501230489892,-4.377992596586293,0 30.12920482920815,-4.170209651944988,0 30.25266271713975,-3.940624816725269,0 30.37574601913936,-3.711593231174588,0 30.49188309854322,-3.533538762746466,0 30.67398982588162,-3.321362545225264,0 30.84005361205572,-3.170467403279758,0 30.92142959151825,-2.926262772015999,0 30.66239085985733,-2.993401141441156,0 30.53411596201954,-2.971975598983802,0 30.40868714016853,-2.840930793527511,0 30.47247141236831,-2.61994547440381,0 30.51801908577299,-2.42036410559568,0 30.32575850175021,-2.305225915197394,0 30.11879154089224,-2.416855377703951,0 29.97579765980064,-2.308310223839491,0 29.99233633478335,-2.72985304553454,0 29.85219944269662,-2.82765784994263,0 29.56891989825443,-2.8162917895274,0 29.2847209616212,-2.807545990221402,0 29.25471629593299,-2.632541049883912,0 29.02865452485783,-2.619689623746427,0 29.01136959684222,-2.827985381378548,0 29.1782669569122,-3.183446006425763,0 29.25121981439897,-3.43795289686554,0 29.18926704691262,-3.743602047581767,0 29.37455429263062,-4.061679326573437,0 29.42239952123452,-4.392661316135749,0
+                                </coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                    
+                    
+                    
+                </Placemark>
+            </Folder>
+        </Folder>
+    </Document>
+</kml>
