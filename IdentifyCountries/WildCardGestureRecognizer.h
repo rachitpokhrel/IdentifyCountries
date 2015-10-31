@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WildCardGestureRecognizer : UIGestureRecognizer
+typedef void (^TouchesEventBlock)(NSSet * touches, UIEvent * event);
+
+@interface WildCardGestureRecognizer : UIGestureRecognizer {
+    TouchesEventBlock touchesBeganCallback;
+}
+@property(copy) TouchesEventBlock touchesBeganCallback;
+
 
 @end

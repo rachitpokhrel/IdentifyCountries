@@ -7,14 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C705A0C1BE3F55B00CFCCB1 /* ICMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C705A0B1BE3F55B00CFCCB1 /* ICMapViewController.m */; };
+		3C7235241BE0061E009AFB17 /* Afganistan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234871BE0061E009AFB17 /* Afganistan.kml */; };
+		3C7235251BE0061E009AFB17 /* Albania.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234881BE0061E009AFB17 /* Albania.kml */; };
+		3C7235261BE0061E009AFB17 /* Algeria.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234891BE0061E009AFB17 /* Algeria.kml */; };
+		3C7235271BE0061E009AFB17 /* Angola.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72348A1BE0061E009AFB17 /* Angola.kml */; };
+		3C7235281BE0061E009AFB17 /* Argentina.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72348B1BE0061E009AFB17 /* Argentina.kml */; };
+		3C7235291BE0061E009AFB17 /* Armenia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72348C1BE0061E009AFB17 /* Armenia.kml */; };
+		3C72352A1BE0061E009AFB17 /* Australia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72348D1BE0061E009AFB17 /* Australia.kml */; };
+		3C72352B1BE0061E009AFB17 /* Austria.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72348E1BE0061E009AFB17 /* Austria.kml */; };
+		3C72352C1BE0061E009AFB17 /* Azerbaijan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72348F1BE0061E009AFB17 /* Azerbaijan.kml */; };
+		3C72352D1BE0061E009AFB17 /* Bangladesh.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234901BE0061E009AFB17 /* Bangladesh.kml */; };
+		3C72352E1BE0061E009AFB17 /* Belarus.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234911BE0061E009AFB17 /* Belarus.kml */; };
+		3C72352F1BE0061E009AFB17 /* Belgium.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234921BE0061E009AFB17 /* Belgium.kml */; };
+		3C7235301BE0061E009AFB17 /* Belize.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234931BE0061E009AFB17 /* Belize.kml */; };
+		3C7235311BE0061E009AFB17 /* Benin.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234941BE0061E009AFB17 /* Benin.kml */; };
+		3C7235321BE0061E009AFB17 /* Bhutan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234951BE0061E009AFB17 /* Bhutan.kml */; };
+		3C7235331BE0061E009AFB17 /* Bolivia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234961BE0061E009AFB17 /* Bolivia.kml */; };
+		3C7235341BE0061E009AFB17 /* Bosnia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234971BE0061E009AFB17 /* Bosnia.kml */; };
+		3C7235351BE0061E009AFB17 /* Botswana.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234981BE0061E009AFB17 /* Botswana.kml */; };
+		3C7235361BE0061E009AFB17 /* Brazil.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234991BE0061E009AFB17 /* Brazil.kml */; };
+		3C7235371BE0061E009AFB17 /* Brunei.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72349A1BE0061E009AFB17 /* Brunei.kml */; };
+		3C7235381BE0061E009AFB17 /* Bulgaria.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72349B1BE0061E009AFB17 /* Bulgaria.kml */; };
+		3C7235391BE0061E009AFB17 /* Burkina Faso.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72349C1BE0061E009AFB17 /* Burkina Faso.kml */; };
+		3C72353A1BE0061E009AFB17 /* Burundi.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72349D1BE0061E009AFB17 /* Burundi.kml */; };
+		3C72353B1BE0061E009AFB17 /* Cambodia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72349E1BE0061E009AFB17 /* Cambodia.kml */; };
+		3C72353C1BE0061E009AFB17 /* Cameroon.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72349F1BE0061E009AFB17 /* Cameroon.kml */; };
+		3C72353D1BE0061E009AFB17 /* Canada.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A01BE0061E009AFB17 /* Canada.kml */; };
+		3C72353E1BE0061E009AFB17 /* Central African Republic.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A11BE0061E009AFB17 /* Central African Republic.kml */; };
+		3C72353F1BE0061E009AFB17 /* Chad.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A21BE0061E009AFB17 /* Chad.kml */; };
+		3C7235401BE0061E009AFB17 /* Chile.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A31BE0061E009AFB17 /* Chile.kml */; };
+		3C7235411BE0061E009AFB17 /* China.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A41BE0061E009AFB17 /* China.kml */; };
+		3C7235421BE0061E009AFB17 /* Columbia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A51BE0061E009AFB17 /* Columbia.kml */; };
+		3C7235431BE0061E009AFB17 /* Congo.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A61BE0061E009AFB17 /* Congo.kml */; };
+		3C7235441BE0061E009AFB17 /* Costa Rica.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A71BE0061E009AFB17 /* Costa Rica.kml */; };
+		3C7235451BE0061E009AFB17 /* Croatia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A81BE0061E009AFB17 /* Croatia.kml */; };
+		3C7235461BE0061E009AFB17 /* Cuba.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234A91BE0061E009AFB17 /* Cuba.kml */; };
+		3C7235471BE0061E009AFB17 /* Cyprus.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234AA1BE0061E009AFB17 /* Cyprus.kml */; };
+		3C7235481BE0061E009AFB17 /* Czech Republic.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234AB1BE0061E009AFB17 /* Czech Republic.kml */; };
+		3C7235491BE0061E009AFB17 /* Democratic Republic of Congo.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234AC1BE0061E009AFB17 /* Democratic Republic of Congo.kml */; };
+		3C72354A1BE0061E009AFB17 /* Denmark.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234AD1BE0061E009AFB17 /* Denmark.kml */; };
+		3C72354B1BE0061E009AFB17 /* Djibauti.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234AE1BE0061E009AFB17 /* Djibauti.kml */; };
+		3C72354C1BE0061E009AFB17 /* Dominican Republic.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234AF1BE0061E009AFB17 /* Dominican Republic.kml */; };
+		3C72354D1BE0061E009AFB17 /* Egypt.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B01BE0061E009AFB17 /* Egypt.kml */; };
+		3C72354E1BE0061E009AFB17 /* El Salvador.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B11BE0061E009AFB17 /* El Salvador.kml */; };
+		3C72354F1BE0061E009AFB17 /* Equador.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B21BE0061E009AFB17 /* Equador.kml */; };
+		3C7235501BE0061E009AFB17 /* Equiterial Guinea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B31BE0061E009AFB17 /* Equiterial Guinea.kml */; };
+		3C7235511BE0061E009AFB17 /* Eritrea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B41BE0061E009AFB17 /* Eritrea.kml */; };
+		3C7235521BE0061E009AFB17 /* Estonia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B51BE0061E009AFB17 /* Estonia.kml */; };
+		3C7235531BE0061E009AFB17 /* Ethiopia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B61BE0061E009AFB17 /* Ethiopia.kml */; };
+		3C7235541BE0061E009AFB17 /* Finland.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B71BE0061E009AFB17 /* Finland.kml */; };
+		3C7235551BE0061E009AFB17 /* France.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B81BE0061E009AFB17 /* France.kml */; };
+		3C7235561BE0061E009AFB17 /* French Guyana.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234B91BE0061E009AFB17 /* French Guyana.kml */; };
+		3C7235571BE0061E009AFB17 /* Gabon.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234BA1BE0061E009AFB17 /* Gabon.kml */; };
+		3C7235581BE0061E009AFB17 /* Georgia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234BB1BE0061E009AFB17 /* Georgia.kml */; };
+		3C7235591BE0061E009AFB17 /* Germany.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234BC1BE0061E009AFB17 /* Germany.kml */; };
+		3C72355A1BE0061E009AFB17 /* Ghana.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234BD1BE0061E009AFB17 /* Ghana.kml */; };
+		3C72355B1BE0061E009AFB17 /* Greece.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234BE1BE0061E009AFB17 /* Greece.kml */; };
+		3C72355C1BE0061E009AFB17 /* Guatemala.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234BF1BE0061E009AFB17 /* Guatemala.kml */; };
+		3C72355D1BE0061E009AFB17 /* Guinea Bissau.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C01BE0061E009AFB17 /* Guinea Bissau.kml */; };
+		3C72355E1BE0061E009AFB17 /* Guinea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C11BE0061E009AFB17 /* Guinea.kml */; };
+		3C72355F1BE0061E009AFB17 /* Guyana.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C21BE0061E009AFB17 /* Guyana.kml */; };
+		3C7235601BE0061E009AFB17 /* Haiti.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C31BE0061E009AFB17 /* Haiti.kml */; };
+		3C7235611BE0061E009AFB17 /* Honduras.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C41BE0061E009AFB17 /* Honduras.kml */; };
+		3C7235621BE0061E009AFB17 /* Hungary.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C51BE0061E009AFB17 /* Hungary.kml */; };
+		3C7235631BE0061E009AFB17 /* Iceland.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C61BE0061E009AFB17 /* Iceland.kml */; };
+		3C7235641BE0061E009AFB17 /* India.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C71BE0061E009AFB17 /* India.kml */; };
+		3C7235651BE0061E009AFB17 /* Indonesia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C81BE0061E009AFB17 /* Indonesia.kml */; };
+		3C7235661BE0061E009AFB17 /* Iran.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234C91BE0061E009AFB17 /* Iran.kml */; };
+		3C7235671BE0061E009AFB17 /* Iraq.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234CA1BE0061E009AFB17 /* Iraq.kml */; };
+		3C7235681BE0061E009AFB17 /* Ireland.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234CB1BE0061E009AFB17 /* Ireland.kml */; };
+		3C7235691BE0061E009AFB17 /* Israel.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234CC1BE0061E009AFB17 /* Israel.kml */; };
+		3C72356A1BE0061E009AFB17 /* Italy.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234CD1BE0061E009AFB17 /* Italy.kml */; };
+		3C72356B1BE0061E009AFB17 /* Ivory Coast.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234CE1BE0061E009AFB17 /* Ivory Coast.kml */; };
+		3C72356C1BE0061E009AFB17 /* Jamaica.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234CF1BE0061E009AFB17 /* Jamaica.kml */; };
+		3C72356D1BE0061E009AFB17 /* Japan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D01BE0061E009AFB17 /* Japan.kml */; };
+		3C72356E1BE0061E009AFB17 /* Jordan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D11BE0061E009AFB17 /* Jordan.kml */; };
+		3C72356F1BE0061E009AFB17 /* Kazakhstan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D21BE0061E009AFB17 /* Kazakhstan.kml */; };
+		3C7235701BE0061E009AFB17 /* Kenya.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D31BE0061E009AFB17 /* Kenya.kml */; };
+		3C7235711BE0061E009AFB17 /* Kuwait.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D41BE0061E009AFB17 /* Kuwait.kml */; };
+		3C7235721BE0061E009AFB17 /* Kyrgystan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D51BE0061E009AFB17 /* Kyrgystan.kml */; };
+		3C7235731BE0061E009AFB17 /* Laos.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D61BE0061E009AFB17 /* Laos.kml */; };
+		3C7235741BE0061E009AFB17 /* Latvia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D71BE0061E009AFB17 /* Latvia.kml */; };
+		3C7235751BE0061E009AFB17 /* Lebanon.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D81BE0061E009AFB17 /* Lebanon.kml */; };
+		3C7235761BE0061E009AFB17 /* Liberia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234D91BE0061E009AFB17 /* Liberia.kml */; };
+		3C7235771BE0061E009AFB17 /* Libya.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234DA1BE0061E009AFB17 /* Libya.kml */; };
+		3C7235781BE0061E009AFB17 /* Lithuania.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234DB1BE0061E009AFB17 /* Lithuania.kml */; };
+		3C7235791BE0061E009AFB17 /* Macedonia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234DC1BE0061E009AFB17 /* Macedonia.kml */; };
+		3C72357A1BE0061E009AFB17 /* Madagascar.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234DD1BE0061E009AFB17 /* Madagascar.kml */; };
+		3C72357B1BE0061E009AFB17 /* Malawi.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234DE1BE0061E009AFB17 /* Malawi.kml */; };
+		3C72357C1BE0061E009AFB17 /* Malaysia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234DF1BE0061E009AFB17 /* Malaysia.kml */; };
+		3C72357D1BE0061E009AFB17 /* Mali.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E01BE0061E009AFB17 /* Mali.kml */; };
+		3C72357E1BE0061E009AFB17 /* Mauritania.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E11BE0061E009AFB17 /* Mauritania.kml */; };
+		3C72357F1BE0061E009AFB17 /* Mexico.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E21BE0061E009AFB17 /* Mexico.kml */; };
+		3C7235801BE0061E009AFB17 /* Moldova.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E31BE0061E009AFB17 /* Moldova.kml */; };
+		3C7235811BE0061E009AFB17 /* Mongolia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E41BE0061E009AFB17 /* Mongolia.kml */; };
+		3C7235821BE0061E009AFB17 /* Morocco.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E51BE0061E009AFB17 /* Morocco.kml */; };
+		3C7235831BE0061E009AFB17 /* Mozambique.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E61BE0061E009AFB17 /* Mozambique.kml */; };
+		3C7235841BE0061E009AFB17 /* Myanmar.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E71BE0061E009AFB17 /* Myanmar.kml */; };
+		3C7235851BE0061E009AFB17 /* Namibia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E81BE0061E009AFB17 /* Namibia.kml */; };
+		3C7235861BE0061E009AFB17 /* Nepal.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234E91BE0061E009AFB17 /* Nepal.kml */; };
+		3C7235871BE0061E009AFB17 /* Netherlands.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234EA1BE0061E009AFB17 /* Netherlands.kml */; };
+		3C7235881BE0061E009AFB17 /* New Zealand.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234EB1BE0061E009AFB17 /* New Zealand.kml */; };
+		3C7235891BE0061E009AFB17 /* Nicaragua.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234EC1BE0061E009AFB17 /* Nicaragua.kml */; };
+		3C72358A1BE0061E009AFB17 /* Niger.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234ED1BE0061E009AFB17 /* Niger.kml */; };
+		3C72358B1BE0061E009AFB17 /* Nigeria.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234EE1BE0061E009AFB17 /* Nigeria.kml */; };
+		3C72358C1BE0061E009AFB17 /* North Korea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234EF1BE0061E009AFB17 /* North Korea.kml */; };
+		3C72358D1BE0061E009AFB17 /* Norway.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F01BE0061E009AFB17 /* Norway.kml */; };
+		3C72358E1BE0061E009AFB17 /* Oman.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F11BE0061E009AFB17 /* Oman.kml */; };
+		3C72358F1BE0061E009AFB17 /* Pakistan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F21BE0061E009AFB17 /* Pakistan.kml */; };
+		3C7235901BE0061E009AFB17 /* Panama.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F31BE0061E009AFB17 /* Panama.kml */; };
+		3C7235911BE0061E009AFB17 /* Papua New Guines.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F41BE0061E009AFB17 /* Papua New Guines.kml */; };
+		3C7235921BE0061E009AFB17 /* Paraguay.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F51BE0061E009AFB17 /* Paraguay.kml */; };
+		3C7235931BE0061E009AFB17 /* Peru.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F61BE0061E009AFB17 /* Peru.kml */; };
+		3C7235941BE0061E009AFB17 /* Phillipines.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F71BE0061E009AFB17 /* Phillipines.kml */; };
+		3C7235951BE0061E009AFB17 /* Poland.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F81BE0061E009AFB17 /* Poland.kml */; };
+		3C7235961BE0061E009AFB17 /* Portugal.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234F91BE0061E009AFB17 /* Portugal.kml */; };
+		3C7235971BE0061E009AFB17 /* Qatar.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234FA1BE0061E009AFB17 /* Qatar.kml */; };
+		3C7235981BE0061E009AFB17 /* Rawanda.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234FB1BE0061E009AFB17 /* Rawanda.kml */; };
+		3C7235991BE0061E009AFB17 /* Romania.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234FC1BE0061E009AFB17 /* Romania.kml */; };
+		3C72359A1BE0061E009AFB17 /* Russia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234FD1BE0061E009AFB17 /* Russia.kml */; };
+		3C72359B1BE0061E009AFB17 /* Saudi Arabia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234FE1BE0061E009AFB17 /* Saudi Arabia.kml */; };
+		3C72359C1BE0061E009AFB17 /* Senegal.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7234FF1BE0061E009AFB17 /* Senegal.kml */; };
+		3C72359D1BE0061E009AFB17 /* Serbia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235001BE0061E009AFB17 /* Serbia.kml */; };
+		3C72359E1BE0061E009AFB17 /* Sierra Leone.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235011BE0061E009AFB17 /* Sierra Leone.kml */; };
+		3C72359F1BE0061E009AFB17 /* Slovakia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235021BE0061E009AFB17 /* Slovakia.kml */; };
+		3C7235A01BE0061E009AFB17 /* Slovenia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235031BE0061E009AFB17 /* Slovenia.kml */; };
+		3C7235A11BE0061E009AFB17 /* Somalia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235041BE0061E009AFB17 /* Somalia.kml */; };
+		3C7235A21BE0061E009AFB17 /* South Africa.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235051BE0061E009AFB17 /* South Africa.kml */; };
+		3C7235A31BE0061E009AFB17 /* South Korea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235061BE0061E009AFB17 /* South Korea.kml */; };
+		3C7235A41BE0061E009AFB17 /* South Sudan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235071BE0061E009AFB17 /* South Sudan.kml */; };
+		3C7235A51BE0061E009AFB17 /* Spain.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235081BE0061E009AFB17 /* Spain.kml */; };
+		3C7235A61BE0061E009AFB17 /* Sri Lanka.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235091BE0061E009AFB17 /* Sri Lanka.kml */; };
+		3C7235A71BE0061E009AFB17 /* Sudan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72350A1BE0061E009AFB17 /* Sudan.kml */; };
+		3C7235A81BE0061E009AFB17 /* Surinam.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72350B1BE0061E009AFB17 /* Surinam.kml */; };
+		3C7235A91BE0061E009AFB17 /* Sweden.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72350C1BE0061E009AFB17 /* Sweden.kml */; };
+		3C7235AA1BE0061E009AFB17 /* Switzerland.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72350D1BE0061E009AFB17 /* Switzerland.kml */; };
+		3C7235AB1BE0061E009AFB17 /* Syria.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72350E1BE0061E009AFB17 /* Syria.kml */; };
+		3C7235AC1BE0061E009AFB17 /* Taiwan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72350F1BE0061E009AFB17 /* Taiwan.kml */; };
+		3C7235AD1BE0061E009AFB17 /* Tajikistan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235101BE0061E009AFB17 /* Tajikistan.kml */; };
+		3C7235AE1BE0061E009AFB17 /* Tanzania.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235111BE0061E009AFB17 /* Tanzania.kml */; };
+		3C7235AF1BE0061E009AFB17 /* Thailand.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235121BE0061E009AFB17 /* Thailand.kml */; };
+		3C7235B01BE0061E009AFB17 /* The Gambia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235131BE0061E009AFB17 /* The Gambia.kml */; };
+		3C7235B11BE0061E009AFB17 /* Togo.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235141BE0061E009AFB17 /* Togo.kml */; };
+		3C7235B21BE0061E009AFB17 /* Tunisia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235151BE0061E009AFB17 /* Tunisia.kml */; };
+		3C7235B31BE0061E009AFB17 /* Turkey.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235161BE0061E009AFB17 /* Turkey.kml */; };
+		3C7235B41BE0061E009AFB17 /* Turkmenistan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235171BE0061E009AFB17 /* Turkmenistan.kml */; };
+		3C7235B51BE0061E009AFB17 /* UAE.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235181BE0061E009AFB17 /* UAE.kml */; };
+		3C7235B61BE0061E009AFB17 /* Uganda.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235191BE0061E009AFB17 /* Uganda.kml */; };
+		3C7235B71BE0061E009AFB17 /* Ukraine.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72351A1BE0061E009AFB17 /* Ukraine.kml */; };
+		3C7235B81BE0061E009AFB17 /* United Kingdom.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72351B1BE0061E009AFB17 /* United Kingdom.kml */; };
+		3C7235B91BE0061E009AFB17 /* Uruguay.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72351C1BE0061E009AFB17 /* Uruguay.kml */; };
+		3C7235BA1BE0061E009AFB17 /* USA.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72351D1BE0061E009AFB17 /* USA.kml */; };
+		3C7235BB1BE0061E009AFB17 /* Uzbekistan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72351E1BE0061E009AFB17 /* Uzbekistan.kml */; };
+		3C7235BC1BE0061E009AFB17 /* Venezuela.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C72351F1BE0061E009AFB17 /* Venezuela.kml */; };
+		3C7235BD1BE0061E009AFB17 /* Vietnam.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235201BE0061E009AFB17 /* Vietnam.kml */; };
+		3C7235BE1BE0061E009AFB17 /* Yemen.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235211BE0061E009AFB17 /* Yemen.kml */; };
+		3C7235BF1BE0061E009AFB17 /* Zambia.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235221BE0061E009AFB17 /* Zambia.kml */; };
+		3C7235C01BE0061E009AFB17 /* Zimbabwe.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235231BE0061E009AFB17 /* Zimbabwe.kml */; };
+		3C7235C31BE0262B009AFB17 /* WildCardGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7235C21BE0262B009AFB17 /* WildCardGestureRecognizer.m */; };
+		3C7235CC1BE0538A009AFB17 /* Atlantic Ocean.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235C51BE0538A009AFB17 /* Atlantic Ocean.kml */; };
+		3C7235CD1BE0538A009AFB17 /* Black Sea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235C61BE0538A009AFB17 /* Black Sea.kml */; };
+		3C7235CE1BE0538A009AFB17 /* Caspian Sea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235C71BE0538A009AFB17 /* Caspian Sea.kml */; };
+		3C7235CF1BE0538A009AFB17 /* Indian Ocean.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235C81BE0538A009AFB17 /* Indian Ocean.kml */; };
+		3C7235D01BE0538A009AFB17 /* Pacific Ocean.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235C91BE0538A009AFB17 /* Pacific Ocean.kml */; };
+		3C7235D11BE0538A009AFB17 /* Sea of Japan.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235CA1BE0538A009AFB17 /* Sea of Japan.kml */; };
+		3C7235D21BE0538A009AFB17 /* South China Sea.kml in Resources */ = {isa = PBXBuildFile; fileRef = 3C7235CB1BE0538A009AFB17 /* South China Sea.kml */; };
+		3C73570C1BE2837B00BFA0B8 /* ICMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73570B1BE2837B00BFA0B8 /* ICMaps.m */; };
+		3C73570F1BE2840D00BFA0B8 /* ICCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C73570E1BE2840D00BFA0B8 /* ICCountry.m */; };
+		3C7357121BE2A22B00BFA0B8 /* ICOcean.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7357111BE2A22B00BFA0B8 /* ICOcean.m */; };
+		3CB7AA6E1BDBE1EA00FBE6C3 /* KMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7AA6D1BDBE1EA00FBE6C3 /* KMLParser.m */; };
+		3CBFCE431BE517EF0045801B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFCE421BE517EF0045801B /* MBProgressHUD.m */; };
+		3CD3D4431BE131BE00D42234 /* ICParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3D4421BE131BE00D42234 /* ICParseOperation.m */; };
+		3CD3D4491BE17CBC00D42234 /* ICQuizMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD3D4481BE17CBC00D42234 /* ICQuizMapViewController.m */; };
 		3CE63FFE1BAD028400FE467B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE63FFD1BAD028400FE467B /* main.m */; };
 		3CE640011BAD028400FE467B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE640001BAD028400FE467B /* AppDelegate.m */; };
 		3CE640041BAD028400FE467B /* IdentifyCountries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3CE640021BAD028400FE467B /* IdentifyCountries.xcdatamodeld */; };
-		3CE640071BAD028400FE467B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE640061BAD028400FE467B /* ViewController.m */; };
+		3CE640071BAD028400FE467B /* ICWorldMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE640061BAD028400FE467B /* ICWorldMapViewController.m */; };
 		3CE6400A1BAD028400FE467B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE640081BAD028400FE467B /* Main.storyboard */; };
 		3CE6400C1BAD028400FE467B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE6400B1BAD028400FE467B /* Images.xcassets */; };
 		3CE6400F1BAD028400FE467B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE6400D1BAD028400FE467B /* LaunchScreen.xib */; };
 		3CE6401B1BAD028400FE467B /* IdentifyCountriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6401A1BAD028400FE467B /* IdentifyCountriesTests.m */; };
+		3CE640251BAD029300FE467B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE640241BAD029300FE467B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +202,203 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C705A0A1BE3F55B00CFCCB1 /* ICMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMapViewController.h; sourceTree = "<group>"; };
+		3C705A0B1BE3F55B00CFCCB1 /* ICMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICMapViewController.m; sourceTree = "<group>"; };
+		3C7234871BE0061E009AFB17 /* Afganistan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Afganistan.kml; path = Countries/Afganistan.kml; sourceTree = "<group>"; };
+		3C7234881BE0061E009AFB17 /* Albania.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Albania.kml; path = Countries/Albania.kml; sourceTree = "<group>"; };
+		3C7234891BE0061E009AFB17 /* Algeria.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Algeria.kml; path = Countries/Algeria.kml; sourceTree = "<group>"; };
+		3C72348A1BE0061E009AFB17 /* Angola.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Angola.kml; path = Countries/Angola.kml; sourceTree = "<group>"; };
+		3C72348B1BE0061E009AFB17 /* Argentina.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Argentina.kml; path = Countries/Argentina.kml; sourceTree = "<group>"; };
+		3C72348C1BE0061E009AFB17 /* Armenia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Armenia.kml; path = Countries/Armenia.kml; sourceTree = "<group>"; };
+		3C72348D1BE0061E009AFB17 /* Australia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Australia.kml; path = Countries/Australia.kml; sourceTree = "<group>"; };
+		3C72348E1BE0061E009AFB17 /* Austria.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Austria.kml; path = Countries/Austria.kml; sourceTree = "<group>"; };
+		3C72348F1BE0061E009AFB17 /* Azerbaijan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Azerbaijan.kml; path = Countries/Azerbaijan.kml; sourceTree = "<group>"; };
+		3C7234901BE0061E009AFB17 /* Bangladesh.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Bangladesh.kml; path = Countries/Bangladesh.kml; sourceTree = "<group>"; };
+		3C7234911BE0061E009AFB17 /* Belarus.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Belarus.kml; path = Countries/Belarus.kml; sourceTree = "<group>"; };
+		3C7234921BE0061E009AFB17 /* Belgium.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Belgium.kml; path = Countries/Belgium.kml; sourceTree = "<group>"; };
+		3C7234931BE0061E009AFB17 /* Belize.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Belize.kml; path = Countries/Belize.kml; sourceTree = "<group>"; };
+		3C7234941BE0061E009AFB17 /* Benin.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Benin.kml; path = Countries/Benin.kml; sourceTree = "<group>"; };
+		3C7234951BE0061E009AFB17 /* Bhutan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Bhutan.kml; path = Countries/Bhutan.kml; sourceTree = "<group>"; };
+		3C7234961BE0061E009AFB17 /* Bolivia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Bolivia.kml; path = Countries/Bolivia.kml; sourceTree = "<group>"; };
+		3C7234971BE0061E009AFB17 /* Bosnia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Bosnia.kml; path = Countries/Bosnia.kml; sourceTree = "<group>"; };
+		3C7234981BE0061E009AFB17 /* Botswana.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Botswana.kml; path = Countries/Botswana.kml; sourceTree = "<group>"; };
+		3C7234991BE0061E009AFB17 /* Brazil.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Brazil.kml; path = Countries/Brazil.kml; sourceTree = "<group>"; };
+		3C72349A1BE0061E009AFB17 /* Brunei.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Brunei.kml; path = Countries/Brunei.kml; sourceTree = "<group>"; };
+		3C72349B1BE0061E009AFB17 /* Bulgaria.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Bulgaria.kml; path = Countries/Bulgaria.kml; sourceTree = "<group>"; };
+		3C72349C1BE0061E009AFB17 /* Burkina Faso.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Burkina Faso.kml"; path = "Countries/Burkina Faso.kml"; sourceTree = "<group>"; };
+		3C72349D1BE0061E009AFB17 /* Burundi.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Burundi.kml; path = Countries/Burundi.kml; sourceTree = "<group>"; };
+		3C72349E1BE0061E009AFB17 /* Cambodia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Cambodia.kml; path = Countries/Cambodia.kml; sourceTree = "<group>"; };
+		3C72349F1BE0061E009AFB17 /* Cameroon.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Cameroon.kml; path = Countries/Cameroon.kml; sourceTree = "<group>"; };
+		3C7234A01BE0061E009AFB17 /* Canada.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Canada.kml; path = Countries/Canada.kml; sourceTree = "<group>"; };
+		3C7234A11BE0061E009AFB17 /* Central African Republic.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Central African Republic.kml"; path = "Countries/Central African Republic.kml"; sourceTree = "<group>"; };
+		3C7234A21BE0061E009AFB17 /* Chad.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Chad.kml; path = Countries/Chad.kml; sourceTree = "<group>"; };
+		3C7234A31BE0061E009AFB17 /* Chile.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Chile.kml; path = Countries/Chile.kml; sourceTree = "<group>"; };
+		3C7234A41BE0061E009AFB17 /* China.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = China.kml; path = Countries/China.kml; sourceTree = "<group>"; };
+		3C7234A51BE0061E009AFB17 /* Columbia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Columbia.kml; path = Countries/Columbia.kml; sourceTree = "<group>"; };
+		3C7234A61BE0061E009AFB17 /* Congo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Congo.kml; path = Countries/Congo.kml; sourceTree = "<group>"; };
+		3C7234A71BE0061E009AFB17 /* Costa Rica.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Costa Rica.kml"; path = "Countries/Costa Rica.kml"; sourceTree = "<group>"; };
+		3C7234A81BE0061E009AFB17 /* Croatia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Croatia.kml; path = Countries/Croatia.kml; sourceTree = "<group>"; };
+		3C7234A91BE0061E009AFB17 /* Cuba.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Cuba.kml; path = Countries/Cuba.kml; sourceTree = "<group>"; };
+		3C7234AA1BE0061E009AFB17 /* Cyprus.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Cyprus.kml; path = Countries/Cyprus.kml; sourceTree = "<group>"; };
+		3C7234AB1BE0061E009AFB17 /* Czech Republic.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Czech Republic.kml"; path = "Countries/Czech Republic.kml"; sourceTree = "<group>"; };
+		3C7234AC1BE0061E009AFB17 /* Democratic Republic of Congo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Democratic Republic of Congo.kml"; path = "Countries/Democratic Republic of Congo.kml"; sourceTree = "<group>"; };
+		3C7234AD1BE0061E009AFB17 /* Denmark.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Denmark.kml; path = Countries/Denmark.kml; sourceTree = "<group>"; };
+		3C7234AE1BE0061E009AFB17 /* Djibauti.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Djibauti.kml; path = Countries/Djibauti.kml; sourceTree = "<group>"; };
+		3C7234AF1BE0061E009AFB17 /* Dominican Republic.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Dominican Republic.kml"; path = "Countries/Dominican Republic.kml"; sourceTree = "<group>"; };
+		3C7234B01BE0061E009AFB17 /* Egypt.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Egypt.kml; path = Countries/Egypt.kml; sourceTree = "<group>"; };
+		3C7234B11BE0061E009AFB17 /* El Salvador.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "El Salvador.kml"; path = "Countries/El Salvador.kml"; sourceTree = "<group>"; };
+		3C7234B21BE0061E009AFB17 /* Equador.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Equador.kml; path = Countries/Equador.kml; sourceTree = "<group>"; };
+		3C7234B31BE0061E009AFB17 /* Equiterial Guinea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Equiterial Guinea.kml"; path = "Countries/Equiterial Guinea.kml"; sourceTree = "<group>"; };
+		3C7234B41BE0061E009AFB17 /* Eritrea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Eritrea.kml; path = Countries/Eritrea.kml; sourceTree = "<group>"; };
+		3C7234B51BE0061E009AFB17 /* Estonia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Estonia.kml; path = Countries/Estonia.kml; sourceTree = "<group>"; };
+		3C7234B61BE0061E009AFB17 /* Ethiopia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Ethiopia.kml; path = Countries/Ethiopia.kml; sourceTree = "<group>"; };
+		3C7234B71BE0061E009AFB17 /* Finland.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Finland.kml; path = Countries/Finland.kml; sourceTree = "<group>"; };
+		3C7234B81BE0061E009AFB17 /* France.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = France.kml; path = Countries/France.kml; sourceTree = "<group>"; };
+		3C7234B91BE0061E009AFB17 /* French Guyana.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "French Guyana.kml"; path = "Countries/French Guyana.kml"; sourceTree = "<group>"; };
+		3C7234BA1BE0061E009AFB17 /* Gabon.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Gabon.kml; path = Countries/Gabon.kml; sourceTree = "<group>"; };
+		3C7234BB1BE0061E009AFB17 /* Georgia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Georgia.kml; path = Countries/Georgia.kml; sourceTree = "<group>"; };
+		3C7234BC1BE0061E009AFB17 /* Germany.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Germany.kml; path = Countries/Germany.kml; sourceTree = "<group>"; };
+		3C7234BD1BE0061E009AFB17 /* Ghana.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Ghana.kml; path = Countries/Ghana.kml; sourceTree = "<group>"; };
+		3C7234BE1BE0061E009AFB17 /* Greece.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Greece.kml; path = Countries/Greece.kml; sourceTree = "<group>"; };
+		3C7234BF1BE0061E009AFB17 /* Guatemala.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Guatemala.kml; path = Countries/Guatemala.kml; sourceTree = "<group>"; };
+		3C7234C01BE0061E009AFB17 /* Guinea Bissau.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Guinea Bissau.kml"; path = "Countries/Guinea Bissau.kml"; sourceTree = "<group>"; };
+		3C7234C11BE0061E009AFB17 /* Guinea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Guinea.kml; path = Countries/Guinea.kml; sourceTree = "<group>"; };
+		3C7234C21BE0061E009AFB17 /* Guyana.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Guyana.kml; path = Countries/Guyana.kml; sourceTree = "<group>"; };
+		3C7234C31BE0061E009AFB17 /* Haiti.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Haiti.kml; path = Countries/Haiti.kml; sourceTree = "<group>"; };
+		3C7234C41BE0061E009AFB17 /* Honduras.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Honduras.kml; path = Countries/Honduras.kml; sourceTree = "<group>"; };
+		3C7234C51BE0061E009AFB17 /* Hungary.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Hungary.kml; path = Countries/Hungary.kml; sourceTree = "<group>"; };
+		3C7234C61BE0061E009AFB17 /* Iceland.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Iceland.kml; path = Countries/Iceland.kml; sourceTree = "<group>"; };
+		3C7234C71BE0061E009AFB17 /* India.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = India.kml; path = Countries/India.kml; sourceTree = "<group>"; };
+		3C7234C81BE0061E009AFB17 /* Indonesia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Indonesia.kml; path = Countries/Indonesia.kml; sourceTree = "<group>"; };
+		3C7234C91BE0061E009AFB17 /* Iran.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Iran.kml; path = Countries/Iran.kml; sourceTree = "<group>"; };
+		3C7234CA1BE0061E009AFB17 /* Iraq.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Iraq.kml; path = Countries/Iraq.kml; sourceTree = "<group>"; };
+		3C7234CB1BE0061E009AFB17 /* Ireland.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Ireland.kml; path = Countries/Ireland.kml; sourceTree = "<group>"; };
+		3C7234CC1BE0061E009AFB17 /* Israel.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Israel.kml; path = Countries/Israel.kml; sourceTree = "<group>"; };
+		3C7234CD1BE0061E009AFB17 /* Italy.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Italy.kml; path = Countries/Italy.kml; sourceTree = "<group>"; };
+		3C7234CE1BE0061E009AFB17 /* Ivory Coast.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Ivory Coast.kml"; path = "Countries/Ivory Coast.kml"; sourceTree = "<group>"; };
+		3C7234CF1BE0061E009AFB17 /* Jamaica.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Jamaica.kml; path = Countries/Jamaica.kml; sourceTree = "<group>"; };
+		3C7234D01BE0061E009AFB17 /* Japan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Japan.kml; path = Countries/Japan.kml; sourceTree = "<group>"; };
+		3C7234D11BE0061E009AFB17 /* Jordan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Jordan.kml; path = Countries/Jordan.kml; sourceTree = "<group>"; };
+		3C7234D21BE0061E009AFB17 /* Kazakhstan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Kazakhstan.kml; path = Countries/Kazakhstan.kml; sourceTree = "<group>"; };
+		3C7234D31BE0061E009AFB17 /* Kenya.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Kenya.kml; path = Countries/Kenya.kml; sourceTree = "<group>"; };
+		3C7234D41BE0061E009AFB17 /* Kuwait.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Kuwait.kml; path = Countries/Kuwait.kml; sourceTree = "<group>"; };
+		3C7234D51BE0061E009AFB17 /* Kyrgystan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Kyrgystan.kml; path = Countries/Kyrgystan.kml; sourceTree = "<group>"; };
+		3C7234D61BE0061E009AFB17 /* Laos.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Laos.kml; path = Countries/Laos.kml; sourceTree = "<group>"; };
+		3C7234D71BE0061E009AFB17 /* Latvia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Latvia.kml; path = Countries/Latvia.kml; sourceTree = "<group>"; };
+		3C7234D81BE0061E009AFB17 /* Lebanon.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Lebanon.kml; path = Countries/Lebanon.kml; sourceTree = "<group>"; };
+		3C7234D91BE0061E009AFB17 /* Liberia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Liberia.kml; path = Countries/Liberia.kml; sourceTree = "<group>"; };
+		3C7234DA1BE0061E009AFB17 /* Libya.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Libya.kml; path = Countries/Libya.kml; sourceTree = "<group>"; };
+		3C7234DB1BE0061E009AFB17 /* Lithuania.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Lithuania.kml; path = Countries/Lithuania.kml; sourceTree = "<group>"; };
+		3C7234DC1BE0061E009AFB17 /* Macedonia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Macedonia.kml; path = Countries/Macedonia.kml; sourceTree = "<group>"; };
+		3C7234DD1BE0061E009AFB17 /* Madagascar.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Madagascar.kml; path = Countries/Madagascar.kml; sourceTree = "<group>"; };
+		3C7234DE1BE0061E009AFB17 /* Malawi.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Malawi.kml; path = Countries/Malawi.kml; sourceTree = "<group>"; };
+		3C7234DF1BE0061E009AFB17 /* Malaysia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Malaysia.kml; path = Countries/Malaysia.kml; sourceTree = "<group>"; };
+		3C7234E01BE0061E009AFB17 /* Mali.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Mali.kml; path = Countries/Mali.kml; sourceTree = "<group>"; };
+		3C7234E11BE0061E009AFB17 /* Mauritania.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Mauritania.kml; path = Countries/Mauritania.kml; sourceTree = "<group>"; };
+		3C7234E21BE0061E009AFB17 /* Mexico.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Mexico.kml; path = Countries/Mexico.kml; sourceTree = "<group>"; };
+		3C7234E31BE0061E009AFB17 /* Moldova.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Moldova.kml; path = Countries/Moldova.kml; sourceTree = "<group>"; };
+		3C7234E41BE0061E009AFB17 /* Mongolia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Mongolia.kml; path = Countries/Mongolia.kml; sourceTree = "<group>"; };
+		3C7234E51BE0061E009AFB17 /* Morocco.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Morocco.kml; path = Countries/Morocco.kml; sourceTree = "<group>"; };
+		3C7234E61BE0061E009AFB17 /* Mozambique.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Mozambique.kml; path = Countries/Mozambique.kml; sourceTree = "<group>"; };
+		3C7234E71BE0061E009AFB17 /* Myanmar.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Myanmar.kml; path = Countries/Myanmar.kml; sourceTree = "<group>"; };
+		3C7234E81BE0061E009AFB17 /* Namibia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Namibia.kml; path = Countries/Namibia.kml; sourceTree = "<group>"; };
+		3C7234E91BE0061E009AFB17 /* Nepal.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Nepal.kml; path = Countries/Nepal.kml; sourceTree = "<group>"; };
+		3C7234EA1BE0061E009AFB17 /* Netherlands.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Netherlands.kml; path = Countries/Netherlands.kml; sourceTree = "<group>"; };
+		3C7234EB1BE0061E009AFB17 /* New Zealand.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "New Zealand.kml"; path = "Countries/New Zealand.kml"; sourceTree = "<group>"; };
+		3C7234EC1BE0061E009AFB17 /* Nicaragua.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Nicaragua.kml; path = Countries/Nicaragua.kml; sourceTree = "<group>"; };
+		3C7234ED1BE0061E009AFB17 /* Niger.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Niger.kml; path = Countries/Niger.kml; sourceTree = "<group>"; };
+		3C7234EE1BE0061E009AFB17 /* Nigeria.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Nigeria.kml; path = Countries/Nigeria.kml; sourceTree = "<group>"; };
+		3C7234EF1BE0061E009AFB17 /* North Korea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "North Korea.kml"; path = "Countries/North Korea.kml"; sourceTree = "<group>"; };
+		3C7234F01BE0061E009AFB17 /* Norway.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Norway.kml; path = Countries/Norway.kml; sourceTree = "<group>"; };
+		3C7234F11BE0061E009AFB17 /* Oman.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Oman.kml; path = Countries/Oman.kml; sourceTree = "<group>"; };
+		3C7234F21BE0061E009AFB17 /* Pakistan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Pakistan.kml; path = Countries/Pakistan.kml; sourceTree = "<group>"; };
+		3C7234F31BE0061E009AFB17 /* Panama.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Panama.kml; path = Countries/Panama.kml; sourceTree = "<group>"; };
+		3C7234F41BE0061E009AFB17 /* Papua New Guines.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Papua New Guines.kml"; path = "Countries/Papua New Guines.kml"; sourceTree = "<group>"; };
+		3C7234F51BE0061E009AFB17 /* Paraguay.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Paraguay.kml; path = Countries/Paraguay.kml; sourceTree = "<group>"; };
+		3C7234F61BE0061E009AFB17 /* Peru.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Peru.kml; path = Countries/Peru.kml; sourceTree = "<group>"; };
+		3C7234F71BE0061E009AFB17 /* Phillipines.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Phillipines.kml; path = Countries/Phillipines.kml; sourceTree = "<group>"; };
+		3C7234F81BE0061E009AFB17 /* Poland.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Poland.kml; path = Countries/Poland.kml; sourceTree = "<group>"; };
+		3C7234F91BE0061E009AFB17 /* Portugal.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Portugal.kml; path = Countries/Portugal.kml; sourceTree = "<group>"; };
+		3C7234FA1BE0061E009AFB17 /* Qatar.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Qatar.kml; path = Countries/Qatar.kml; sourceTree = "<group>"; };
+		3C7234FB1BE0061E009AFB17 /* Rawanda.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Rawanda.kml; path = Countries/Rawanda.kml; sourceTree = "<group>"; };
+		3C7234FC1BE0061E009AFB17 /* Romania.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Romania.kml; path = Countries/Romania.kml; sourceTree = "<group>"; };
+		3C7234FD1BE0061E009AFB17 /* Russia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Russia.kml; path = Countries/Russia.kml; sourceTree = "<group>"; };
+		3C7234FE1BE0061E009AFB17 /* Saudi Arabia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Saudi Arabia.kml"; path = "Countries/Saudi Arabia.kml"; sourceTree = "<group>"; };
+		3C7234FF1BE0061E009AFB17 /* Senegal.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Senegal.kml; path = Countries/Senegal.kml; sourceTree = "<group>"; };
+		3C7235001BE0061E009AFB17 /* Serbia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Serbia.kml; path = Countries/Serbia.kml; sourceTree = "<group>"; };
+		3C7235011BE0061E009AFB17 /* Sierra Leone.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Sierra Leone.kml"; path = "Countries/Sierra Leone.kml"; sourceTree = "<group>"; };
+		3C7235021BE0061E009AFB17 /* Slovakia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Slovakia.kml; path = Countries/Slovakia.kml; sourceTree = "<group>"; };
+		3C7235031BE0061E009AFB17 /* Slovenia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Slovenia.kml; path = Countries/Slovenia.kml; sourceTree = "<group>"; };
+		3C7235041BE0061E009AFB17 /* Somalia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Somalia.kml; path = Countries/Somalia.kml; sourceTree = "<group>"; };
+		3C7235051BE0061E009AFB17 /* South Africa.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "South Africa.kml"; path = "Countries/South Africa.kml"; sourceTree = "<group>"; };
+		3C7235061BE0061E009AFB17 /* South Korea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "South Korea.kml"; path = "Countries/South Korea.kml"; sourceTree = "<group>"; };
+		3C7235071BE0061E009AFB17 /* South Sudan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "South Sudan.kml"; path = "Countries/South Sudan.kml"; sourceTree = "<group>"; };
+		3C7235081BE0061E009AFB17 /* Spain.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Spain.kml; path = Countries/Spain.kml; sourceTree = "<group>"; };
+		3C7235091BE0061E009AFB17 /* Sri Lanka.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Sri Lanka.kml"; path = "Countries/Sri Lanka.kml"; sourceTree = "<group>"; };
+		3C72350A1BE0061E009AFB17 /* Sudan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sudan.kml; path = Countries/Sudan.kml; sourceTree = "<group>"; };
+		3C72350B1BE0061E009AFB17 /* Surinam.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Surinam.kml; path = Countries/Surinam.kml; sourceTree = "<group>"; };
+		3C72350C1BE0061E009AFB17 /* Sweden.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Sweden.kml; path = Countries/Sweden.kml; sourceTree = "<group>"; };
+		3C72350D1BE0061E009AFB17 /* Switzerland.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Switzerland.kml; path = Countries/Switzerland.kml; sourceTree = "<group>"; };
+		3C72350E1BE0061E009AFB17 /* Syria.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Syria.kml; path = Countries/Syria.kml; sourceTree = "<group>"; };
+		3C72350F1BE0061E009AFB17 /* Taiwan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Taiwan.kml; path = Countries/Taiwan.kml; sourceTree = "<group>"; };
+		3C7235101BE0061E009AFB17 /* Tajikistan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Tajikistan.kml; path = Countries/Tajikistan.kml; sourceTree = "<group>"; };
+		3C7235111BE0061E009AFB17 /* Tanzania.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Tanzania.kml; path = Countries/Tanzania.kml; sourceTree = "<group>"; };
+		3C7235121BE0061E009AFB17 /* Thailand.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Thailand.kml; path = Countries/Thailand.kml; sourceTree = "<group>"; };
+		3C7235131BE0061E009AFB17 /* The Gambia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "The Gambia.kml"; path = "Countries/The Gambia.kml"; sourceTree = "<group>"; };
+		3C7235141BE0061E009AFB17 /* Togo.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Togo.kml; path = Countries/Togo.kml; sourceTree = "<group>"; };
+		3C7235151BE0061E009AFB17 /* Tunisia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Tunisia.kml; path = Countries/Tunisia.kml; sourceTree = "<group>"; };
+		3C7235161BE0061E009AFB17 /* Turkey.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Turkey.kml; path = Countries/Turkey.kml; sourceTree = "<group>"; };
+		3C7235171BE0061E009AFB17 /* Turkmenistan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Turkmenistan.kml; path = Countries/Turkmenistan.kml; sourceTree = "<group>"; };
+		3C7235181BE0061E009AFB17 /* UAE.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = UAE.kml; path = Countries/UAE.kml; sourceTree = "<group>"; };
+		3C7235191BE0061E009AFB17 /* Uganda.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Uganda.kml; path = Countries/Uganda.kml; sourceTree = "<group>"; };
+		3C72351A1BE0061E009AFB17 /* Ukraine.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Ukraine.kml; path = Countries/Ukraine.kml; sourceTree = "<group>"; };
+		3C72351B1BE0061E009AFB17 /* United Kingdom.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "United Kingdom.kml"; path = "Countries/United Kingdom.kml"; sourceTree = "<group>"; };
+		3C72351C1BE0061E009AFB17 /* Uruguay.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Uruguay.kml; path = Countries/Uruguay.kml; sourceTree = "<group>"; };
+		3C72351D1BE0061E009AFB17 /* USA.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = USA.kml; path = Countries/USA.kml; sourceTree = "<group>"; };
+		3C72351E1BE0061E009AFB17 /* Uzbekistan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Uzbekistan.kml; path = Countries/Uzbekistan.kml; sourceTree = "<group>"; };
+		3C72351F1BE0061E009AFB17 /* Venezuela.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Venezuela.kml; path = Countries/Venezuela.kml; sourceTree = "<group>"; };
+		3C7235201BE0061E009AFB17 /* Vietnam.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Vietnam.kml; path = Countries/Vietnam.kml; sourceTree = "<group>"; };
+		3C7235211BE0061E009AFB17 /* Yemen.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Yemen.kml; path = Countries/Yemen.kml; sourceTree = "<group>"; };
+		3C7235221BE0061E009AFB17 /* Zambia.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Zambia.kml; path = Countries/Zambia.kml; sourceTree = "<group>"; };
+		3C7235231BE0061E009AFB17 /* Zimbabwe.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = Zimbabwe.kml; path = Countries/Zimbabwe.kml; sourceTree = "<group>"; };
+		3C7235C11BE0262B009AFB17 /* WildCardGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WildCardGestureRecognizer.h; sourceTree = "<group>"; };
+		3C7235C21BE0262B009AFB17 /* WildCardGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WildCardGestureRecognizer.m; sourceTree = "<group>"; };
+		3C7235C51BE0538A009AFB17 /* Atlantic Ocean.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Atlantic Ocean.kml"; path = "Oceans /Atlantic Ocean.kml"; sourceTree = "<group>"; };
+		3C7235C61BE0538A009AFB17 /* Black Sea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Black Sea.kml"; path = "Oceans /Black Sea.kml"; sourceTree = "<group>"; };
+		3C7235C71BE0538A009AFB17 /* Caspian Sea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Caspian Sea.kml"; path = "Oceans /Caspian Sea.kml"; sourceTree = "<group>"; };
+		3C7235C81BE0538A009AFB17 /* Indian Ocean.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Indian Ocean.kml"; path = "Oceans /Indian Ocean.kml"; sourceTree = "<group>"; };
+		3C7235C91BE0538A009AFB17 /* Pacific Ocean.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Pacific Ocean.kml"; path = "Oceans /Pacific Ocean.kml"; sourceTree = "<group>"; };
+		3C7235CA1BE0538A009AFB17 /* Sea of Japan.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "Sea of Japan.kml"; path = "Oceans /Sea of Japan.kml"; sourceTree = "<group>"; };
+		3C7235CB1BE0538A009AFB17 /* South China Sea.kml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "South China Sea.kml"; path = "Oceans /South China Sea.kml"; sourceTree = "<group>"; };
+		3C73570A1BE2837B00BFA0B8 /* ICMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICMaps.h; sourceTree = "<group>"; };
+		3C73570B1BE2837B00BFA0B8 /* ICMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICMaps.m; sourceTree = "<group>"; };
+		3C73570D1BE2840D00BFA0B8 /* ICCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICCountry.h; sourceTree = "<group>"; };
+		3C73570E1BE2840D00BFA0B8 /* ICCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICCountry.m; sourceTree = "<group>"; };
+		3C7357101BE2A22B00BFA0B8 /* ICOcean.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICOcean.h; sourceTree = "<group>"; };
+		3C7357111BE2A22B00BFA0B8 /* ICOcean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICOcean.m; sourceTree = "<group>"; };
+		3CB7AA6C1BDBE1EA00FBE6C3 /* KMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMLParser.h; sourceTree = "<group>"; };
+		3CB7AA6D1BDBE1EA00FBE6C3 /* KMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMLParser.m; sourceTree = "<group>"; };
+		3CBFCE411BE517EF0045801B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		3CBFCE421BE517EF0045801B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		3CD3D4411BE131BE00D42234 /* ICParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICParseOperation.h; sourceTree = "<group>"; };
+		3CD3D4421BE131BE00D42234 /* ICParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICParseOperation.m; sourceTree = "<group>"; };
+		3CD3D4471BE17CBC00D42234 /* ICQuizMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICQuizMapViewController.h; sourceTree = "<group>"; };
+		3CD3D4481BE17CBC00D42234 /* ICQuizMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICQuizMapViewController.m; sourceTree = "<group>"; };
 		3CE63FF81BAD028400FE467B /* IdentifyCountries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdentifyCountries.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE63FFC1BAD028400FE467B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CE63FFD1BAD028400FE467B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3CE63FFF1BAD028400FE467B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3CE640001BAD028400FE467B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3CE640031BAD028400FE467B /* IdentifyCountries.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IdentifyCountries.xcdatamodel; sourceTree = "<group>"; };
-		3CE640051BAD028400FE467B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3CE640061BAD028400FE467B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CE640051BAD028400FE467B /* ICWorldMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICWorldMapViewController.h; sourceTree = "<group>"; };
+		3CE640061BAD028400FE467B /* ICWorldMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICWorldMapViewController.m; sourceTree = "<group>"; };
 		3CE640091BAD028400FE467B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CE6400B1BAD028400FE467B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3CE6400E1BAD028400FE467B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3CE640141BAD028400FE467B /* IdentifyCountriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdentifyCountriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE640191BAD028400FE467B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CE6401A1BAD028400FE467B /* IdentifyCountriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdentifyCountriesTests.m; sourceTree = "<group>"; };
+		3CE640241BAD029300FE467B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +406,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE640251BAD029300FE467B /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +420,245 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C705A0D1BE40E4C00CFCCB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3C73570A1BE2837B00BFA0B8 /* ICMaps.h */,
+				3C73570B1BE2837B00BFA0B8 /* ICMaps.m */,
+				3C73570D1BE2840D00BFA0B8 /* ICCountry.h */,
+				3C73570E1BE2840D00BFA0B8 /* ICCountry.m */,
+				3C7357101BE2A22B00BFA0B8 /* ICOcean.h */,
+				3C7357111BE2A22B00BFA0B8 /* ICOcean.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3C705A0E1BE40E9B00CFCCB1 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				3CB7AA6C1BDBE1EA00FBE6C3 /* KMLParser.h */,
+				3CB7AA6D1BDBE1EA00FBE6C3 /* KMLParser.m */,
+				3CD3D4411BE131BE00D42234 /* ICParseOperation.h */,
+				3CD3D4421BE131BE00D42234 /* ICParseOperation.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		3C705A0F1BE40EE600CFCCB1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CE640051BAD028400FE467B /* ICWorldMapViewController.h */,
+				3CE640061BAD028400FE467B /* ICWorldMapViewController.m */,
+				3CD3D4471BE17CBC00D42234 /* ICQuizMapViewController.h */,
+				3CD3D4481BE17CBC00D42234 /* ICQuizMapViewController.m */,
+				3C705A0A1BE3F55B00CFCCB1 /* ICMapViewController.h */,
+				3C705A0B1BE3F55B00CFCCB1 /* ICMapViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3C705A101BE40F1100CFCCB1 /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				3C7235C11BE0262B009AFB17 /* WildCardGestureRecognizer.h */,
+				3C7235C21BE0262B009AFB17 /* WildCardGestureRecognizer.m */,
+			);
+			name = Gesture;
+			sourceTree = "<group>";
+		};
+		3C7234861BE002E3009AFB17 /* Countries */ = {
+			isa = PBXGroup;
+			children = (
+				3C7234871BE0061E009AFB17 /* Afganistan.kml */,
+				3C7234881BE0061E009AFB17 /* Albania.kml */,
+				3C7234891BE0061E009AFB17 /* Algeria.kml */,
+				3C72348A1BE0061E009AFB17 /* Angola.kml */,
+				3C72348B1BE0061E009AFB17 /* Argentina.kml */,
+				3C72348C1BE0061E009AFB17 /* Armenia.kml */,
+				3C72348D1BE0061E009AFB17 /* Australia.kml */,
+				3C72348E1BE0061E009AFB17 /* Austria.kml */,
+				3C72348F1BE0061E009AFB17 /* Azerbaijan.kml */,
+				3C7234901BE0061E009AFB17 /* Bangladesh.kml */,
+				3C7234911BE0061E009AFB17 /* Belarus.kml */,
+				3C7234921BE0061E009AFB17 /* Belgium.kml */,
+				3C7234931BE0061E009AFB17 /* Belize.kml */,
+				3C7234941BE0061E009AFB17 /* Benin.kml */,
+				3C7234951BE0061E009AFB17 /* Bhutan.kml */,
+				3C7234961BE0061E009AFB17 /* Bolivia.kml */,
+				3C7234971BE0061E009AFB17 /* Bosnia.kml */,
+				3C7234981BE0061E009AFB17 /* Botswana.kml */,
+				3C7234991BE0061E009AFB17 /* Brazil.kml */,
+				3C72349A1BE0061E009AFB17 /* Brunei.kml */,
+				3C72349B1BE0061E009AFB17 /* Bulgaria.kml */,
+				3C72349C1BE0061E009AFB17 /* Burkina Faso.kml */,
+				3C72349D1BE0061E009AFB17 /* Burundi.kml */,
+				3C72349E1BE0061E009AFB17 /* Cambodia.kml */,
+				3C72349F1BE0061E009AFB17 /* Cameroon.kml */,
+				3C7234A01BE0061E009AFB17 /* Canada.kml */,
+				3C7234A11BE0061E009AFB17 /* Central African Republic.kml */,
+				3C7234A21BE0061E009AFB17 /* Chad.kml */,
+				3C7234A31BE0061E009AFB17 /* Chile.kml */,
+				3C7234A41BE0061E009AFB17 /* China.kml */,
+				3C7234A51BE0061E009AFB17 /* Columbia.kml */,
+				3C7234A61BE0061E009AFB17 /* Congo.kml */,
+				3C7234A71BE0061E009AFB17 /* Costa Rica.kml */,
+				3C7234A81BE0061E009AFB17 /* Croatia.kml */,
+				3C7234A91BE0061E009AFB17 /* Cuba.kml */,
+				3C7234AA1BE0061E009AFB17 /* Cyprus.kml */,
+				3C7234AB1BE0061E009AFB17 /* Czech Republic.kml */,
+				3C7234AC1BE0061E009AFB17 /* Democratic Republic of Congo.kml */,
+				3C7234AD1BE0061E009AFB17 /* Denmark.kml */,
+				3C7234AE1BE0061E009AFB17 /* Djibauti.kml */,
+				3C7234AF1BE0061E009AFB17 /* Dominican Republic.kml */,
+				3C7234B01BE0061E009AFB17 /* Egypt.kml */,
+				3C7234B11BE0061E009AFB17 /* El Salvador.kml */,
+				3C7234B21BE0061E009AFB17 /* Equador.kml */,
+				3C7234B31BE0061E009AFB17 /* Equiterial Guinea.kml */,
+				3C7234B41BE0061E009AFB17 /* Eritrea.kml */,
+				3C7234B51BE0061E009AFB17 /* Estonia.kml */,
+				3C7234B61BE0061E009AFB17 /* Ethiopia.kml */,
+				3C7234B71BE0061E009AFB17 /* Finland.kml */,
+				3C7234B81BE0061E009AFB17 /* France.kml */,
+				3C7234B91BE0061E009AFB17 /* French Guyana.kml */,
+				3C7234BA1BE0061E009AFB17 /* Gabon.kml */,
+				3C7234BB1BE0061E009AFB17 /* Georgia.kml */,
+				3C7234BC1BE0061E009AFB17 /* Germany.kml */,
+				3C7234BD1BE0061E009AFB17 /* Ghana.kml */,
+				3C7234BE1BE0061E009AFB17 /* Greece.kml */,
+				3C7234BF1BE0061E009AFB17 /* Guatemala.kml */,
+				3C7234C01BE0061E009AFB17 /* Guinea Bissau.kml */,
+				3C7234C11BE0061E009AFB17 /* Guinea.kml */,
+				3C7234C21BE0061E009AFB17 /* Guyana.kml */,
+				3C7234C31BE0061E009AFB17 /* Haiti.kml */,
+				3C7234C41BE0061E009AFB17 /* Honduras.kml */,
+				3C7234C51BE0061E009AFB17 /* Hungary.kml */,
+				3C7234C61BE0061E009AFB17 /* Iceland.kml */,
+				3C7234C71BE0061E009AFB17 /* India.kml */,
+				3C7234C81BE0061E009AFB17 /* Indonesia.kml */,
+				3C7234C91BE0061E009AFB17 /* Iran.kml */,
+				3C7234CA1BE0061E009AFB17 /* Iraq.kml */,
+				3C7234CB1BE0061E009AFB17 /* Ireland.kml */,
+				3C7234CC1BE0061E009AFB17 /* Israel.kml */,
+				3C7234CD1BE0061E009AFB17 /* Italy.kml */,
+				3C7234CE1BE0061E009AFB17 /* Ivory Coast.kml */,
+				3C7234CF1BE0061E009AFB17 /* Jamaica.kml */,
+				3C7234D01BE0061E009AFB17 /* Japan.kml */,
+				3C7234D11BE0061E009AFB17 /* Jordan.kml */,
+				3C7234D21BE0061E009AFB17 /* Kazakhstan.kml */,
+				3C7234D31BE0061E009AFB17 /* Kenya.kml */,
+				3C7234D41BE0061E009AFB17 /* Kuwait.kml */,
+				3C7234D51BE0061E009AFB17 /* Kyrgystan.kml */,
+				3C7234D61BE0061E009AFB17 /* Laos.kml */,
+				3C7234D71BE0061E009AFB17 /* Latvia.kml */,
+				3C7234D81BE0061E009AFB17 /* Lebanon.kml */,
+				3C7234D91BE0061E009AFB17 /* Liberia.kml */,
+				3C7234DA1BE0061E009AFB17 /* Libya.kml */,
+				3C7234DB1BE0061E009AFB17 /* Lithuania.kml */,
+				3C7234DC1BE0061E009AFB17 /* Macedonia.kml */,
+				3C7234DD1BE0061E009AFB17 /* Madagascar.kml */,
+				3C7234DE1BE0061E009AFB17 /* Malawi.kml */,
+				3C7234DF1BE0061E009AFB17 /* Malaysia.kml */,
+				3C7234E01BE0061E009AFB17 /* Mali.kml */,
+				3C7234E11BE0061E009AFB17 /* Mauritania.kml */,
+				3C7234E21BE0061E009AFB17 /* Mexico.kml */,
+				3C7234E31BE0061E009AFB17 /* Moldova.kml */,
+				3C7234E41BE0061E009AFB17 /* Mongolia.kml */,
+				3C7234E51BE0061E009AFB17 /* Morocco.kml */,
+				3C7234E61BE0061E009AFB17 /* Mozambique.kml */,
+				3C7234E71BE0061E009AFB17 /* Myanmar.kml */,
+				3C7234E81BE0061E009AFB17 /* Namibia.kml */,
+				3C7234E91BE0061E009AFB17 /* Nepal.kml */,
+				3C7234EA1BE0061E009AFB17 /* Netherlands.kml */,
+				3C7234EB1BE0061E009AFB17 /* New Zealand.kml */,
+				3C7234EC1BE0061E009AFB17 /* Nicaragua.kml */,
+				3C7234ED1BE0061E009AFB17 /* Niger.kml */,
+				3C7234EE1BE0061E009AFB17 /* Nigeria.kml */,
+				3C7234EF1BE0061E009AFB17 /* North Korea.kml */,
+				3C7234F01BE0061E009AFB17 /* Norway.kml */,
+				3C7234F11BE0061E009AFB17 /* Oman.kml */,
+				3C7234F21BE0061E009AFB17 /* Pakistan.kml */,
+				3C7234F31BE0061E009AFB17 /* Panama.kml */,
+				3C7234F41BE0061E009AFB17 /* Papua New Guines.kml */,
+				3C7234F51BE0061E009AFB17 /* Paraguay.kml */,
+				3C7234F61BE0061E009AFB17 /* Peru.kml */,
+				3C7234F71BE0061E009AFB17 /* Phillipines.kml */,
+				3C7234F81BE0061E009AFB17 /* Poland.kml */,
+				3C7234F91BE0061E009AFB17 /* Portugal.kml */,
+				3C7234FA1BE0061E009AFB17 /* Qatar.kml */,
+				3C7234FB1BE0061E009AFB17 /* Rawanda.kml */,
+				3C7234FC1BE0061E009AFB17 /* Romania.kml */,
+				3C7234FD1BE0061E009AFB17 /* Russia.kml */,
+				3C7234FE1BE0061E009AFB17 /* Saudi Arabia.kml */,
+				3C7234FF1BE0061E009AFB17 /* Senegal.kml */,
+				3C7235001BE0061E009AFB17 /* Serbia.kml */,
+				3C7235011BE0061E009AFB17 /* Sierra Leone.kml */,
+				3C7235021BE0061E009AFB17 /* Slovakia.kml */,
+				3C7235031BE0061E009AFB17 /* Slovenia.kml */,
+				3C7235041BE0061E009AFB17 /* Somalia.kml */,
+				3C7235051BE0061E009AFB17 /* South Africa.kml */,
+				3C7235061BE0061E009AFB17 /* South Korea.kml */,
+				3C7235071BE0061E009AFB17 /* South Sudan.kml */,
+				3C7235081BE0061E009AFB17 /* Spain.kml */,
+				3C7235091BE0061E009AFB17 /* Sri Lanka.kml */,
+				3C72350A1BE0061E009AFB17 /* Sudan.kml */,
+				3C72350B1BE0061E009AFB17 /* Surinam.kml */,
+				3C72350C1BE0061E009AFB17 /* Sweden.kml */,
+				3C72350D1BE0061E009AFB17 /* Switzerland.kml */,
+				3C72350E1BE0061E009AFB17 /* Syria.kml */,
+				3C72350F1BE0061E009AFB17 /* Taiwan.kml */,
+				3C7235101BE0061E009AFB17 /* Tajikistan.kml */,
+				3C7235111BE0061E009AFB17 /* Tanzania.kml */,
+				3C7235121BE0061E009AFB17 /* Thailand.kml */,
+				3C7235131BE0061E009AFB17 /* The Gambia.kml */,
+				3C7235141BE0061E009AFB17 /* Togo.kml */,
+				3C7235151BE0061E009AFB17 /* Tunisia.kml */,
+				3C7235161BE0061E009AFB17 /* Turkey.kml */,
+				3C7235171BE0061E009AFB17 /* Turkmenistan.kml */,
+				3C7235181BE0061E009AFB17 /* UAE.kml */,
+				3C7235191BE0061E009AFB17 /* Uganda.kml */,
+				3C72351A1BE0061E009AFB17 /* Ukraine.kml */,
+				3C72351B1BE0061E009AFB17 /* United Kingdom.kml */,
+				3C72351C1BE0061E009AFB17 /* Uruguay.kml */,
+				3C72351D1BE0061E009AFB17 /* USA.kml */,
+				3C72351E1BE0061E009AFB17 /* Uzbekistan.kml */,
+				3C72351F1BE0061E009AFB17 /* Venezuela.kml */,
+				3C7235201BE0061E009AFB17 /* Vietnam.kml */,
+				3C7235211BE0061E009AFB17 /* Yemen.kml */,
+				3C7235221BE0061E009AFB17 /* Zambia.kml */,
+				3C7235231BE0061E009AFB17 /* Zimbabwe.kml */,
+			);
+			name = Countries;
+			sourceTree = "<group>";
+		};
+		3C7235C41BE0537B009AFB17 /* Oceans */ = {
+			isa = PBXGroup;
+			children = (
+				3C7235C51BE0538A009AFB17 /* Atlantic Ocean.kml */,
+				3C7235C61BE0538A009AFB17 /* Black Sea.kml */,
+				3C7235C71BE0538A009AFB17 /* Caspian Sea.kml */,
+				3C7235C81BE0538A009AFB17 /* Indian Ocean.kml */,
+				3C7235C91BE0538A009AFB17 /* Pacific Ocean.kml */,
+				3C7235CA1BE0538A009AFB17 /* Sea of Japan.kml */,
+				3C7235CB1BE0538A009AFB17 /* South China Sea.kml */,
+			);
+			name = Oceans;
+			sourceTree = "<group>";
+		};
+		3CBFCE401BE517CF0045801B /* MBProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3CBFCE411BE517EF0045801B /* MBProgressHUD.h */,
+				3CBFCE421BE517EF0045801B /* MBProgressHUD.m */,
+			);
+			name = MBProgress;
+			sourceTree = "<group>";
+		};
 		3CE63FEF1BAD028400FE467B = {
 			isa = PBXGroup;
 			children = (
+				3C7235C41BE0537B009AFB17 /* Oceans */,
+				3C7234861BE002E3009AFB17 /* Countries */,
+				3CE640241BAD029300FE467B /* MapKit.framework */,
 				3CE63FFA1BAD028400FE467B /* IdentifyCountries */,
 				3CE640171BAD028400FE467B /* IdentifyCountriesTests */,
 				3CE63FF91BAD028400FE467B /* Products */,
@@ -83,14 +677,12 @@
 		3CE63FFA1BAD028400FE467B /* IdentifyCountries */ = {
 			isa = PBXGroup;
 			children = (
-				3CE63FFF1BAD028400FE467B /* AppDelegate.h */,
-				3CE640001BAD028400FE467B /* AppDelegate.m */,
-				3CE640051BAD028400FE467B /* ViewController.h */,
-				3CE640061BAD028400FE467B /* ViewController.m */,
+				3CBFCE401BE517CF0045801B /* MBProgress */,
+				3C705A101BE40F1100CFCCB1 /* Gesture */,
+				3C705A0F1BE40EE600CFCCB1 /* ViewControllers */,
+				3C705A0E1BE40E9B00CFCCB1 /* Parser */,
+				3C705A0D1BE40E4C00CFCCB1 /* Model */,
 				3CE640081BAD028400FE467B /* Main.storyboard */,
-				3CE6400B1BAD028400FE467B /* Images.xcassets */,
-				3CE6400D1BAD028400FE467B /* LaunchScreen.xib */,
-				3CE640021BAD028400FE467B /* IdentifyCountries.xcdatamodeld */,
 				3CE63FFB1BAD028400FE467B /* Supporting Files */,
 			);
 			path = IdentifyCountries;
@@ -99,6 +691,11 @@
 		3CE63FFB1BAD028400FE467B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CE63FFF1BAD028400FE467B /* AppDelegate.h */,
+				3CE640001BAD028400FE467B /* AppDelegate.m */,
+				3CE6400B1BAD028400FE467B /* Images.xcassets */,
+				3CE6400D1BAD028400FE467B /* LaunchScreen.xib */,
+				3CE640021BAD028400FE467B /* IdentifyCountries.xcdatamodeld */,
 				3CE63FFC1BAD028400FE467B /* Info.plist */,
 				3CE63FFD1BAD028400FE467B /* main.m */,
 			);
@@ -202,9 +799,173 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7235561BE0061E009AFB17 /* French Guyana.kml in Resources */,
+				3C7235471BE0061E009AFB17 /* Cyprus.kml in Resources */,
+				3C7235B01BE0061E009AFB17 /* The Gambia.kml in Resources */,
+				3C7235AE1BE0061E009AFB17 /* Tanzania.kml in Resources */,
+				3C7235A91BE0061E009AFB17 /* Sweden.kml in Resources */,
+				3C7235951BE0061E009AFB17 /* Poland.kml in Resources */,
+				3C7235B81BE0061E009AFB17 /* United Kingdom.kml in Resources */,
+				3C7235921BE0061E009AFB17 /* Paraguay.kml in Resources */,
+				3C7235B41BE0061E009AFB17 /* Turkmenistan.kml in Resources */,
+				3C7235A81BE0061E009AFB17 /* Surinam.kml in Resources */,
+				3C7235B11BE0061E009AFB17 /* Togo.kml in Resources */,
+				3C7235891BE0061E009AFB17 /* Nicaragua.kml in Resources */,
+				3C7235401BE0061E009AFB17 /* Chile.kml in Resources */,
+				3C7235521BE0061E009AFB17 /* Estonia.kml in Resources */,
+				3C72356E1BE0061E009AFB17 /* Jordan.kml in Resources */,
+				3C7235A61BE0061E009AFB17 /* Sri Lanka.kml in Resources */,
+				3C7235371BE0061E009AFB17 /* Brunei.kml in Resources */,
+				3C7235B71BE0061E009AFB17 /* Ukraine.kml in Resources */,
+				3C7235531BE0061E009AFB17 /* Ethiopia.kml in Resources */,
+				3C7235AB1BE0061E009AFB17 /* Syria.kml in Resources */,
+				3C7235861BE0061E009AFB17 /* Nepal.kml in Resources */,
+				3C7235A41BE0061E009AFB17 /* South Sudan.kml in Resources */,
+				3C72354D1BE0061E009AFB17 /* Egypt.kml in Resources */,
+				3C7235BF1BE0061E009AFB17 /* Zambia.kml in Resources */,
+				3C72354F1BE0061E009AFB17 /* Equador.kml in Resources */,
+				3C72354A1BE0061E009AFB17 /* Denmark.kml in Resources */,
+				3C7235361BE0061E009AFB17 /* Brazil.kml in Resources */,
+				3C7235B31BE0061E009AFB17 /* Turkey.kml in Resources */,
+				3C72357C1BE0061E009AFB17 /* Malaysia.kml in Resources */,
+				3C72355F1BE0061E009AFB17 /* Guyana.kml in Resources */,
+				3C72358B1BE0061E009AFB17 /* Nigeria.kml in Resources */,
+				3C7235281BE0061E009AFB17 /* Argentina.kml in Resources */,
+				3C7235BE1BE0061E009AFB17 /* Yemen.kml in Resources */,
+				3C7235681BE0061E009AFB17 /* Ireland.kml in Resources */,
+				3C7235AD1BE0061E009AFB17 /* Tajikistan.kml in Resources */,
+				3C7235CF1BE0538A009AFB17 /* Indian Ocean.kml in Resources */,
+				3C7235801BE0061E009AFB17 /* Moldova.kml in Resources */,
+				3C7235BC1BE0061E009AFB17 /* Venezuela.kml in Resources */,
+				3C72359E1BE0061E009AFB17 /* Sierra Leone.kml in Resources */,
+				3C7235781BE0061E009AFB17 /* Lithuania.kml in Resources */,
+				3C72353B1BE0061E009AFB17 /* Cambodia.kml in Resources */,
+				3C7235261BE0061E009AFB17 /* Algeria.kml in Resources */,
+				3C7235BA1BE0061E009AFB17 /* USA.kml in Resources */,
+				3C72355E1BE0061E009AFB17 /* Guinea.kml in Resources */,
+				3C72354C1BE0061E009AFB17 /* Dominican Republic.kml in Resources */,
+				3C7235CE1BE0538A009AFB17 /* Caspian Sea.kml in Resources */,
+				3C72355D1BE0061E009AFB17 /* Guinea Bissau.kml in Resources */,
+				3C72352F1BE0061E009AFB17 /* Belgium.kml in Resources */,
+				3C7235A21BE0061E009AFB17 /* South Africa.kml in Resources */,
+				3C7235AA1BE0061E009AFB17 /* Switzerland.kml in Resources */,
+				3C72359B1BE0061E009AFB17 /* Saudi Arabia.kml in Resources */,
+				3C7235381BE0061E009AFB17 /* Bulgaria.kml in Resources */,
+				3C7235611BE0061E009AFB17 /* Honduras.kml in Resources */,
+				3C7235A71BE0061E009AFB17 /* Sudan.kml in Resources */,
+				3C7235BB1BE0061E009AFB17 /* Uzbekistan.kml in Resources */,
+				3C72356D1BE0061E009AFB17 /* Japan.kml in Resources */,
+				3C72356F1BE0061E009AFB17 /* Kazakhstan.kml in Resources */,
+				3C72357D1BE0061E009AFB17 /* Mali.kml in Resources */,
+				3C7235491BE0061E009AFB17 /* Democratic Republic of Congo.kml in Resources */,
+				3C7235241BE0061E009AFB17 /* Afganistan.kml in Resources */,
+				3C7235431BE0061E009AFB17 /* Congo.kml in Resources */,
+				3C7235321BE0061E009AFB17 /* Bhutan.kml in Resources */,
+				3C7235A11BE0061E009AFB17 /* Somalia.kml in Resources */,
+				3C7235AC1BE0061E009AFB17 /* Taiwan.kml in Resources */,
+				3C72355A1BE0061E009AFB17 /* Ghana.kml in Resources */,
+				3C7235CC1BE0538A009AFB17 /* Atlantic Ocean.kml in Resources */,
+				3C7235881BE0061E009AFB17 /* New Zealand.kml in Resources */,
+				3C72359F1BE0061E009AFB17 /* Slovakia.kml in Resources */,
+				3C7235B21BE0061E009AFB17 /* Tunisia.kml in Resources */,
+				3C72353E1BE0061E009AFB17 /* Central African Republic.kml in Resources */,
+				3C7235B51BE0061E009AFB17 /* UAE.kml in Resources */,
+				3C72358F1BE0061E009AFB17 /* Pakistan.kml in Resources */,
+				3C72353F1BE0061E009AFB17 /* Chad.kml in Resources */,
+				3C7235441BE0061E009AFB17 /* Costa Rica.kml in Resources */,
+				3C72359C1BE0061E009AFB17 /* Senegal.kml in Resources */,
+				3C7235731BE0061E009AFB17 /* Laos.kml in Resources */,
+				3C72355C1BE0061E009AFB17 /* Guatemala.kml in Resources */,
+				3C7235841BE0061E009AFB17 /* Myanmar.kml in Resources */,
 				3CE6400A1BAD028400FE467B /* Main.storyboard in Resources */,
+				3C7235751BE0061E009AFB17 /* Lebanon.kml in Resources */,
+				3C7235771BE0061E009AFB17 /* Libya.kml in Resources */,
+				3C7235391BE0061E009AFB17 /* Burkina Faso.kml in Resources */,
 				3CE6400F1BAD028400FE467B /* LaunchScreen.xib in Resources */,
+				3C7235641BE0061E009AFB17 /* India.kml in Resources */,
+				3C7235AF1BE0061E009AFB17 /* Thailand.kml in Resources */,
+				3C7235CD1BE0538A009AFB17 /* Black Sea.kml in Resources */,
+				3C7235251BE0061E009AFB17 /* Albania.kml in Resources */,
+				3C7235581BE0061E009AFB17 /* Georgia.kml in Resources */,
+				3C7235411BE0061E009AFB17 /* China.kml in Resources */,
+				3C7235341BE0061E009AFB17 /* Bosnia.kml in Resources */,
+				3C72358A1BE0061E009AFB17 /* Niger.kml in Resources */,
+				3C72354B1BE0061E009AFB17 /* Djibauti.kml in Resources */,
+				3C7235651BE0061E009AFB17 /* Indonesia.kml in Resources */,
+				3C7235A01BE0061E009AFB17 /* Slovenia.kml in Resources */,
+				3C72357E1BE0061E009AFB17 /* Mauritania.kml in Resources */,
+				3C7235301BE0061E009AFB17 /* Belize.kml in Resources */,
+				3C72353A1BE0061E009AFB17 /* Burundi.kml in Resources */,
+				3C7235971BE0061E009AFB17 /* Qatar.kml in Resources */,
+				3C72356A1BE0061E009AFB17 /* Italy.kml in Resources */,
+				3C72357A1BE0061E009AFB17 /* Madagascar.kml in Resources */,
+				3C7235D11BE0538A009AFB17 /* Sea of Japan.kml in Resources */,
+				3C7235811BE0061E009AFB17 /* Mongolia.kml in Resources */,
+				3C72356C1BE0061E009AFB17 /* Jamaica.kml in Resources */,
+				3C72355B1BE0061E009AFB17 /* Greece.kml in Resources */,
+				3C7235331BE0061E009AFB17 /* Bolivia.kml in Resources */,
 				3CE6400C1BAD028400FE467B /* Images.xcassets in Resources */,
+				3C72352E1BE0061E009AFB17 /* Belarus.kml in Resources */,
+				3C7235821BE0061E009AFB17 /* Morocco.kml in Resources */,
+				3C7235761BE0061E009AFB17 /* Liberia.kml in Resources */,
+				3C7235601BE0061E009AFB17 /* Haiti.kml in Resources */,
+				3C7235351BE0061E009AFB17 /* Botswana.kml in Resources */,
+				3C72359D1BE0061E009AFB17 /* Serbia.kml in Resources */,
+				3C7235551BE0061E009AFB17 /* France.kml in Resources */,
+				3C7235451BE0061E009AFB17 /* Croatia.kml in Resources */,
+				3C72353D1BE0061E009AFB17 /* Canada.kml in Resources */,
+				3C7235741BE0061E009AFB17 /* Latvia.kml in Resources */,
+				3C7235851BE0061E009AFB17 /* Namibia.kml in Resources */,
+				3C7235271BE0061E009AFB17 /* Angola.kml in Resources */,
+				3C7235291BE0061E009AFB17 /* Armenia.kml in Resources */,
+				3C7235D21BE0538A009AFB17 /* South China Sea.kml in Resources */,
+				3C72352D1BE0061E009AFB17 /* Bangladesh.kml in Resources */,
+				3C7235991BE0061E009AFB17 /* Romania.kml in Resources */,
+				3C7235831BE0061E009AFB17 /* Mozambique.kml in Resources */,
+				3C72352A1BE0061E009AFB17 /* Australia.kml in Resources */,
+				3C7235931BE0061E009AFB17 /* Peru.kml in Resources */,
+				3C7235BD1BE0061E009AFB17 /* Vietnam.kml in Resources */,
+				3C7235541BE0061E009AFB17 /* Finland.kml in Resources */,
+				3C7235311BE0061E009AFB17 /* Benin.kml in Resources */,
+				3C72358E1BE0061E009AFB17 /* Oman.kml in Resources */,
+				3C7235461BE0061E009AFB17 /* Cuba.kml in Resources */,
+				3C7235621BE0061E009AFB17 /* Hungary.kml in Resources */,
+				3C72357B1BE0061E009AFB17 /* Malawi.kml in Resources */,
+				3C72354E1BE0061E009AFB17 /* El Salvador.kml in Resources */,
+				3C7235B91BE0061E009AFB17 /* Uruguay.kml in Resources */,
+				3C7235961BE0061E009AFB17 /* Portugal.kml in Resources */,
+				3C72358D1BE0061E009AFB17 /* Norway.kml in Resources */,
+				3C7235D01BE0538A009AFB17 /* Pacific Ocean.kml in Resources */,
+				3C7235721BE0061E009AFB17 /* Kyrgystan.kml in Resources */,
+				3C7235791BE0061E009AFB17 /* Macedonia.kml in Resources */,
+				3C7235631BE0061E009AFB17 /* Iceland.kml in Resources */,
+				3C72359A1BE0061E009AFB17 /* Russia.kml in Resources */,
+				3C7235A51BE0061E009AFB17 /* Spain.kml in Resources */,
+				3C72352B1BE0061E009AFB17 /* Austria.kml in Resources */,
+				3C7235981BE0061E009AFB17 /* Rawanda.kml in Resources */,
+				3C7235701BE0061E009AFB17 /* Kenya.kml in Resources */,
+				3C7235501BE0061E009AFB17 /* Equiterial Guinea.kml in Resources */,
+				3C7235B61BE0061E009AFB17 /* Uganda.kml in Resources */,
+				3C72353C1BE0061E009AFB17 /* Cameroon.kml in Resources */,
+				3C72358C1BE0061E009AFB17 /* North Korea.kml in Resources */,
+				3C7235421BE0061E009AFB17 /* Columbia.kml in Resources */,
+				3C7235C01BE0061E009AFB17 /* Zimbabwe.kml in Resources */,
+				3C72352C1BE0061E009AFB17 /* Azerbaijan.kml in Resources */,
+				3C72356B1BE0061E009AFB17 /* Ivory Coast.kml in Resources */,
+				3C7235691BE0061E009AFB17 /* Israel.kml in Resources */,
+				3C7235481BE0061E009AFB17 /* Czech Republic.kml in Resources */,
+				3C7235A31BE0061E009AFB17 /* South Korea.kml in Resources */,
+				3C7235511BE0061E009AFB17 /* Eritrea.kml in Resources */,
+				3C7235941BE0061E009AFB17 /* Phillipines.kml in Resources */,
+				3C7235571BE0061E009AFB17 /* Gabon.kml in Resources */,
+				3C7235911BE0061E009AFB17 /* Papua New Guines.kml in Resources */,
+				3C7235671BE0061E009AFB17 /* Iraq.kml in Resources */,
+				3C7235901BE0061E009AFB17 /* Panama.kml in Resources */,
+				3C7235661BE0061E009AFB17 /* Iran.kml in Resources */,
+				3C7235711BE0061E009AFB17 /* Kuwait.kml in Resources */,
+				3C7235871BE0061E009AFB17 /* Netherlands.kml in Resources */,
+				3C72357F1BE0061E009AFB17 /* Mexico.kml in Resources */,
+				3C7235591BE0061E009AFB17 /* Germany.kml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +984,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CE640041BAD028400FE467B /* IdentifyCountries.xcdatamodeld in Sources */,
+				3CD3D4431BE131BE00D42234 /* ICParseOperation.m in Sources */,
+				3C7235C31BE0262B009AFB17 /* WildCardGestureRecognizer.m in Sources */,
 				3CE640011BAD028400FE467B /* AppDelegate.m in Sources */,
-				3CE640071BAD028400FE467B /* ViewController.m in Sources */,
+				3C7357121BE2A22B00BFA0B8 /* ICOcean.m in Sources */,
+				3CB7AA6E1BDBE1EA00FBE6C3 /* KMLParser.m in Sources */,
+				3C73570C1BE2837B00BFA0B8 /* ICMaps.m in Sources */,
+				3C73570F1BE2840D00BFA0B8 /* ICCountry.m in Sources */,
+				3CE640071BAD028400FE467B /* ICWorldMapViewController.m in Sources */,
+				3CBFCE431BE517EF0045801B /* MBProgressHUD.m in Sources */,
+				3C705A0C1BE3F55B00CFCCB1 /* ICMapViewController.m in Sources */,
+				3CD3D4491BE17CBC00D42234 /* ICQuizMapViewController.m in Sources */,
 				3CE63FFE1BAD028400FE467B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +1190,7 @@
 				3CE640201BAD028400FE467B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CE640211BAD028400FE467B /* Build configuration list for PBXNativeTarget "IdentifyCountriesTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +1199,7 @@
 				3CE640231BAD028400FE467B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

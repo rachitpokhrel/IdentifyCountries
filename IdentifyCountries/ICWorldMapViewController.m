@@ -7,57 +7,50 @@
 //
 
 #import "ICWorldMapViewController.h"
-#import "KMLParser.h"
-
+#import "ICMaps.h"
 
 @interface ICWorldMapViewController ()
-@property (nonatomic, strong) KMLParser *kmlParser;
+@property (nonatomic, strong) MKPolygon *tappedOverlay;
+@property (nonatomic, strong) ICMaps *maps;
+
 @end
 
 
 @implementation ICWorldMapViewController
 
+-(ICMaps *)maps
+{
+    if (!_maps){
+        _maps = [[ICMaps alloc] init];
+    }
+    return _maps;
+}
+
+-(void)setTappedOverlay:(MKPolygon *)tappedOverlay
+{
+    if (_tappedOverlay){
+        id _view = [self.mapView rendererForOverlay:_tappedOverlay];
+        ((MKPolygonRenderer*)_view).fillColor = [UIColor whiteColor];
+    }
+
+    id view = [self.mapView rendererForOverlay:tappedOverlay];
+    ((MKPolygonRenderer*)view).fillColor = [UIColor redColor];
+    
+    _tappedOverlay = tappedOverlay;
+    
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    // Locate the path to the route.kml file in the application's bundle
-    // and parse it with the KMLParser.
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Canada" ofType:@"kml"];
-    NSURL *url = [NSURL fileURLWithPath:path];
-    self.kmlParser = [[KMLParser alloc] initWithURL:url];
-    [self.kmlParser parseKML];
+    self.delegate = self;
+    self.delegate.mapView = self.mapView;
     
-    // Add all of the MKOverlay objects parsed from the KML file to the map.
-    NSArray *overlays = [self.kmlParser overlays];
-    [self.mapView addOverlays:overlays];
-    
-    // Add all of the MKAnnotation objects parsed from the KML file to the map.
-    NSArray *annotations = [self.kmlParser points];
-    [self.mapView addAnnotations:annotations];
-    
-    // Walk the list of overlays and annotations and create a MKMapRect that
-    // bounds all of them and store it into flyTo.
-    MKMapRect flyTo = MKMapRectNull;
-    for (id <MKOverlay> overlay in overlays) {
-        if (MKMapRectIsNull(flyTo)) {
-            flyTo = [overlay boundingMapRect];
-        } else {
-            flyTo = MKMapRectUnion(flyTo, [overlay boundingMapRect]);
-        }
-    }
-    
-    for (id <MKAnnotation> annotation in annotations) {
-        MKMapPoint annotationPoint = MKMapPointForCoordinate(annotation.coordinate);
-        MKMapRect pointRect = MKMapRectMake(annotationPoint.x, annotationPoint.y, 0, 0);
-        if (MKMapRectIsNull(flyTo)) {
-            flyTo = pointRect;
-        } else {
-            flyTo = MKMapRectUnion(flyTo, pointRect);
-        }
-    }
-    
-    // Position the map so that all overlays and annotations are visible on screen.
-    self.mapView.visibleMapRect = flyTo;
+}
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
     
 }
 
@@ -67,12 +60,42 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
-    return [self.kmlParser rendererForOverlay:overlay];
+#pragma mark ICMapViewDelegate
+
+-(NSArray *)countries
+{
+    return self.maps.countries;
 }
 
+-(NSArray*)oceans
+{
+    return self.maps.oceans;
+}
+
+-(void)didTapOnOverlay:(MKPolygon *)overlay
+{
+    self.tappedOverlay = overlay;
+}
+
+-(void)overlayForCountry:(NSString *)country
+{
+    self.countryName.text = country;
+}
+
+-(void)didCompleteOpeartionWithParsar:(ICParseOperation *)operation
+{
+    
+}
+
+#pragma mark map view delegates
+- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
+    return [super.kmlParser rendererForOverlay:overlay];
+}
+
+
+
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
-    return [self.kmlParser viewForAnnotation:annotation];
+    return [super.kmlParser viewForAnnotation:annotation];
 }
 
 

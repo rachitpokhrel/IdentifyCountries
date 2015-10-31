@@ -33,6 +33,7 @@
 
 @property (unsafe_unretained, nonatomic, readonly) NSArray *overlays;
 @property (unsafe_unretained, nonatomic, readonly) NSArray *points;
+@property (unsafe_unretained, nonatomic, readonly) NSArray *names;
 
 - (MKAnnotationView *)viewForAnnotation:(id <MKAnnotation>)point;
 - (MKOverlayRenderer *)rendererForOverlay:(id <MKOverlay>)overlay;

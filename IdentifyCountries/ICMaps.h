@@ -7,7 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ICCountry.h"
+#import "ICOcean.h"
 
 @interface ICMaps : NSObject
+
+@property (nonatomic, strong) NSArray *countries;
+@property (nonatomic, strong) NSArray *oceans;
+@property (nonatomic, strong) NSArray *randomRegion;
+
+
+
+
 
 @end

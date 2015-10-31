@@ -6,12 +6,11 @@
 //  Copyright (c) 2015 Rachit. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
+#import "ICMapViewController.h"
 
-@interface ICWorldMapViewController : UIViewController
+@interface ICWorldMapViewController : ICMapViewController<ICMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
-
+@property (weak, nonatomic) IBOutlet UILabel *countryName;
 
 @end
 

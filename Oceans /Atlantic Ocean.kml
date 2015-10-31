@@ -7,11 +7,11 @@
         
         <Style id="yellowLineWhitePoly">
             <LineStyle>
-                <color>00ffffff</color>
+                <color>ffb1e0f7</color>
                 <width>4</width>
             </LineStyle>
             <PolyStyle>
-                <color>ff7fcdff</color>
+                <color>ffb1e0f7</color>
             </PolyStyle>
         </Style>
         

@@ -42,6 +42,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
+                </Placemark>
+                <Placemark>
+                    <name>Malaysia</name>
+                    <visibility>0</visibility>
+                    <styleUrl>#yellowLineWhitePoly</styleUrl>
                     <Polygon>
                         <extrude>1</extrude>
                         <altitudeMode>relativeToGround</altitudeMode>

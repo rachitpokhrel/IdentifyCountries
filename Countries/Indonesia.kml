@@ -42,6 +42,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
+                    </Placemark>
+                    <Placemark>
+                        <name>Indonesia</name>
+                        <visibility>0</visibility>
+                        <styleUrl>#yellowLineWhitePoly</styleUrl>
                     <Polygon>
                         <extrude>1</extrude>
                         <altitudeMode>relativeToGround</altitudeMode>
@@ -53,7 +58,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                    
+                    </Placemark>
+                    <Placemark>
+                        <name>Indonesia</name>
+                        <visibility>0</visibility>
+                        <styleUrl>#yellowLineWhitePoly</styleUrl>
                     <Polygon>
                         <extrude>1</extrude>
                         <altitudeMode>relativeToGround</altitudeMode>
@@ -65,7 +74,12 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
+                    </Placemark>
                     
+                    <Placemark>
+                        <name>Indonesia</name>
+                        <visibility>0</visibility>
+                        <styleUrl>#yellowLineWhitePoly</styleUrl>
                     <Polygon>
                         <extrude>1</extrude>
                         <altitudeMode>relativeToGround</altitudeMode>
@@ -77,7 +91,12 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
+                    </Placemark>
                     
+                    <Placemark>
+                        <name>Indonesia</name>
+                        <visibility>0</visibility>
+                        <styleUrl>#yellowLineWhitePoly</styleUrl>
                     <Polygon>
                         <extrude>1</extrude>
                         <altitudeMode>relativeToGround</altitudeMode>

@@ -6,8 +6,9 @@
 //  Copyright © 2015 Rachit. All rights reserved.
 //
 
-#import "ICWorldMapViewController.h"
+#import "ICMapViewController.h"
 
-@interface ICQuizMapViewController : ICWorldMapViewController
+@interface ICQuizMapViewController : ICMapViewController<ICMapViewDelegate>
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

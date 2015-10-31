@@ -291,6 +291,18 @@ static void strToCoords(NSString *str, CLLocationCoordinate2D **coordsOut, NSUIn
     return points;
 }
 
+//return array of names
+-(NSArray *)names{
+    NSMutableArray *names = [[NSMutableArray alloc] init];
+    for (KMLPlacemark *placemark in _placemarks) {
+        NSString *name = placemark.name;
+        if (name)
+            [names addObject:name];
+    }
+    return names;
+}
+
+
 - (MKAnnotationView *)viewForAnnotation:(id <MKAnnotation>)point {
     // Find the KMLPlacemark object that owns this point and get
     // the view from it.
