@@ -7,11 +7,13 @@
 //
 
 #import "ICWorldMapViewController.h"
+#import "MBProgressHUD.h"
 #import "ICMaps.h"
 
 @interface ICWorldMapViewController ()
 @property (nonatomic, strong) MKPolygon *tappedOverlay;
 @property (nonatomic, strong) ICMaps *maps;
+@property (nonatomic, strong) MBProgressHUD *hud;
 
 @end
 
@@ -45,7 +47,9 @@
     [super viewDidLoad];
     self.delegate = self;
     self.delegate.mapView = self.mapView;
-    
+    self.hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+    self.hud.mode = MBProgressHUDModeAnnularDeterminate;
+    self.hud.labelText = @"Loading...";
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -79,7 +83,7 @@
 
 -(void)overlayForCountry:(NSString *)country
 {
-    self.countryName.text = country;
+    self.navigationItem.title = country;
 }
 
 -(void)didCompleteOpeartionWithParsar:(ICParseOperation *)operation
@@ -98,5 +102,19 @@
     return [super.kmlParser viewForAnnotation:annotation];
 }
 
+- (void)mapViewDidFinishRenderingMap:(MKMapView *)mapView fullyRendered:(BOOL)fullyRendered
+{
+    [self.hud hide:YES];
+}
+
+- (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated
+{
+    
+}
+
+- (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView
+{
+    [self.hud hide:YES];
+}
 
 @end

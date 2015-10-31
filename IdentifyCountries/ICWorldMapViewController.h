@@ -10,7 +10,7 @@
 
 @interface ICWorldMapViewController : ICMapViewController<ICMapViewDelegate>
 @property (weak, nonatomic) IBOutlet MKMapView *mapView;
-@property (weak, nonatomic) IBOutlet UILabel *countryName;
+
 
 @end
 

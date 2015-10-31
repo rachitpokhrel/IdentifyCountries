@@ -18,6 +18,7 @@
 @property (nonatomic, strong) NSString *tapOnCountry;
 @property (nonatomic, assign) MKMapRect flyTo;
 @property (nonatomic, strong) MBProgressHUD *hud;
+@property (nonatomic, strong) NSTimer *timer;
 
 
 @end
@@ -64,9 +65,20 @@
     [self selectCountryInRandomRegion:self.randomRegion[0]];
     UIBarButtonItem *bbitem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(nextQuestion:)];
     self.navigationItem.rightBarButtonItem = bbitem;
+
     self.hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     self.hud.mode = MBProgressHUDModeAnnularDeterminate;
     self.hud.labelText = @"Loading...";
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:5.0
+                                     target:self
+                                   selector:@selector(removeHUD)
+                                   userInfo:nil
+                                    repeats:NO];
+}
+
+-(void)removeHUD
+{
+    [self.hud hide:YES];
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -143,13 +155,24 @@
 
 - (void)mapViewDidFinishRenderingMap:(MKMapView *)mapView fullyRendered:(BOOL)fullyRendered
 {
-    [self.hud hide:YES];
+    //[self.hud hide:YES];
 }
 
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated
 {
-    [self.hud hide:YES];
+    //[self.hud hide:YES];
 }
+
+- (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView
+{
+    
+}
+
+- (void)mapViewDidFailLoadingMap:(MKMapView *)mapView withError:(NSError *)error
+{
+    
+}
+
 
 - (void)nextQuestion:(id)sender {
     self.tappedOverlay = nil;
@@ -157,6 +180,10 @@
     self.maps = nil;
     self.tapOnCountry = nil;
     self.delegate = nil;
+    [self.hud hide:YES];
+    self.hud = nil;
+    [self.timer invalidate];
+    self.timer = nil;
     [self.mapView removeOverlays:self.overlays];
     [self viewDidLoad];
     [self viewWillAppear:YES];
